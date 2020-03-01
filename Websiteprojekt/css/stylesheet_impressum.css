@@ -127,3 +127,7 @@ header {
   z-index: 5;
   height: 65px;
 }
+.contentinfo{
+  padding: 5em;
+  background-color: #707070;
+}

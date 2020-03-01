@@ -12,6 +12,6 @@ body {
   transform: scale(1.015)
 }
 img {
-  width: 32.659%;
-  height: 400px;
+  width: auto;
+  height: 250px;
 }
