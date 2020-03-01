@@ -1,9 +1,76 @@
-nav {
-    display: flex;
-    background-color: #ffc809;
-    width: 100%;
-    z-index: 5;
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
+
+.navigation-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.nav-btn {
+  height: 100%;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  float: left;
+  vertical-align: middle;
+}
+
+
+#company-name{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+
+}
+
+header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 5;
+  height: 65px;
+}
+
 
 a {
   text-transform: uppercase;
@@ -11,17 +78,6 @@ a {
   color: white;
   font-size: 1.25rem;
   text-decoration: none;
-}
-
-.navigation {
-  padding: 15px 30px;
-  transition: background-color 500ms;
-  background-color: transparent;
-
-}
-
-.navigation:hover {
-  background-color: rgba(255, 255, 255, 0.2);
 }
 
 h1 {
@@ -93,31 +149,4 @@ body {
 .contentinfo{
   padding: 5em;
   background-color: #ffc809;
-}
-#About_bot{
-  position: absolute;
-  left: 2em;
-}
-#Team_bot{
-  position: absolute;
-  left: 17em;
-}
-
-#Gallery_bot{
-  position: absolute;
-  left: 32em;
-}
-
-#Coaching_bot{
-  position: absolute;
-  left: 47em;
-}
-
-#Partners_bot{
-  position: absolute;
-  left: 62em;
-}
-#Impressum_bot{
-  position: absolute;
-  left: 77em;
 }
