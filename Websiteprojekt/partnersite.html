@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE! html>
 <html>
   <head>
    <title>caught.</title>
@@ -7,20 +7,25 @@
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
-  <nav id="" role="banner">
-    <a class="logo" href="/"><img src=""></a>
-    <a class="navigation" href="index.html"> About us </a>
-    <a class="navigation" href="index.html"> Team </a>
-    <a class="navigation" href="index.html"> Gallery </a>
-    <a class="navigation" href="index.html"> Coaching </a>
-    <a class="navigation" href="index.html"> Our partners </a>
-    <a class="navigation" href="index.html"> Impressum </a>
-   <img id="logo" src="images/caught_logo.jpg"></img>
-  </nav>
-
   <body>
-        <div id="title">
-           Our Partners
+    <header>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Homepage</a>
+        <a class="no-wrap" href="about.html">About us</a>
+        <a href="imagegallery.html">Gallery</a>
+        <a href="partnersite.html">Partners</a>
+        <a class="no-wrap" href="book-us.html">Book us</a>
+        <a href="apply.html">Apply</a>
+        <a href="impressum.html">Impressum</a>
+      </div>
+
+      <span class="nav-btn" onclick="openNav()">&#9776;</span>
+      <h4 id="company-name"> <i><stark>caught.</stark></i> </h4>
+    </header>
+
+        <div class="section">
+               <img src="images/partners.png" alt="">
          </div>
 
          <div class="section">
@@ -86,8 +91,21 @@
       </a>
   </div>
 </div>
+<footer class="contentinfo"><h3 class="footer">
+  Copyright by caught. AG (März 2020)
+  <h3>
+</footer>
   </body>
   <script>
     AOS.init();
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
   </script>
 </html>
