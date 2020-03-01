@@ -1,0 +1,100 @@
+header {
+    background-color: #ffc809;
+    height: 2.8em;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+}
+
+a{
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: white;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+#About_top{
+  position: absolute;
+  top: 0.5em;
+  left: 2em;
+}
+
+#Team_top{
+  position: absolute;
+  top: 0.5em;
+  left: 17em;
+}
+#Gallery_top{
+  position: absolute;
+  top: 0.5em;
+  left: 32em;
+}
+
+#Coaching_top{
+  position: absolute;
+  top: 0.5em;
+  left: 47em;
+}
+
+#Partners_top{
+  position: absolute;
+  top: 0.5em;
+  left: 62em;
+}
+
+#Impressum_top{
+  position: absolute;
+  top: 0.5em;
+  left: 77em;
+}
+
+h1 {
+  font-size: 50px;
+  color: black;
+}
+
+body {
+  margin: 0px;
+  font-family: Times;
+  font-weight: 400;
+  font-size: .96rem;
+  color: #6c756d;
+  text-align: justify;
+  width: 100%
+}
+
+
+.contentinfo{
+  padding: 5em;
+  background-color: #ffc809;
+}
+#About_bot{
+  position: absolute;
+  left: 2em;
+}
+#Team_bot{
+  position: absolute;
+  left: 17em;
+}
+
+#Gallery_bot{
+  position: absolute;
+  left: 32em;
+}
+
+#Coaching_bot{
+  position: absolute;
+  left: 47em;
+}
+
+#Partners_bot{
+  position: absolute;
+  left: 62em;
+}
+#Impressum_bot{
+  position: absolute;
+  left: 77em;
+}

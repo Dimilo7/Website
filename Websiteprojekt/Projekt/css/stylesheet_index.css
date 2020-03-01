@@ -1,0 +1,123 @@
+nav {
+    display: flex;
+    background-color: #ffc809;
+    width: 100%;
+    z-index: 5;
+}
+
+a {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: white;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.navigation {
+  padding: 15px 30px;
+  transition: background-color 500ms;
+  background-color: transparent;
+
+}
+
+.navigation:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  font-size: 50px;
+  color: black;
+}
+
+body {
+  margin: 0px;
+  font-family: Times;
+  font-weight: 400;
+  font-size: .96rem;
+  color: #6c756d;
+  text-align: justify;
+  width: 100%
+}
+
+.picture {
+  background-image: url("fotogirl.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh);
+  min-height: 700px;
+  position: relative;
+}
+
+.company {
+  font-size: 150px;
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.slogan {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 6em;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.container-left {
+  float: left;
+  width: 45%
+}
+
+.container-right {
+  float: right;
+  width: 45%
+}
+
+.Gründer {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+.section {
+  margin: 7em 16em;
+  line-height: 1.5;
+  height: auto;
+  overflow: hidden;
+}
+
+.contentinfo{
+  padding: 5em;
+  background-color: #ffc809;
+}
+#About_bot{
+  position: absolute;
+  left: 2em;
+}
+#Team_bot{
+  position: absolute;
+  left: 17em;
+}
+
+#Gallery_bot{
+  position: absolute;
+  left: 32em;
+}
+
+#Coaching_bot{
+  position: absolute;
+  left: 47em;
+}
+
+#Partners_bot{
+  position: absolute;
+  left: 62em;
+}
+#Impressum_bot{
+  position: absolute;
+  left: 77em;
+}

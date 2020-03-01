@@ -1,0 +1,50 @@
+nav {
+    display: flex;
+    background-color: #189ad3;
+    width: 100%;
+    z-index: 5;
+}
+a {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: white;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+.navigation {
+  padding-right: 15px;
+  padding-left: 30px;
+  transition: background-color 500ms;
+  background-color: transparent;
+}
+.navigation:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+h1 {
+  font-size: 32px;
+  color: black;
+}
+h2 {
+  font-size: 24px;
+  color: black;
+}
+body {
+  margin: 0px;
+  font-family: Times;
+  font-weight: 400;
+  font-size: .96rem;
+  color: black;
+  text-align: justify;
+  width: 100%;
+}
+#logo {
+  width: 7%;
+  height: auto;
+  float: right;
+}
+.page {
+  margin-left: 5%;
+}
+.abstand {
+padding-top: 10px;
+}
