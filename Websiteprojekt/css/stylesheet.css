@@ -1,5 +1,8 @@
-.gallery{
-  margin: 10px 10px;
+body {
+  margin: 10px 10px 10px 10px;
+}
+.gallery {
+  width: 100%;
 }
 .gallery img{
   padding: 5px;
@@ -7,4 +10,8 @@
 }
 .gallery img:hover{
   transform: scale(1.015)
+}
+img {
+  width: 32.659%;
+  height: 400px;
 }
