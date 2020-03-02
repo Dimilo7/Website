@@ -131,6 +131,13 @@ h3{
   font-size: 20px;
   color: white;
 }
+
+h5{
+  margin: 0em;
+  font-size: 1em;
+  color: #000;
+}
+
 .rights{
   text-align: center;
 }
@@ -173,7 +180,7 @@ h3{
   cursor: pointer;
 }
 
-.btn_video:hover{
+.btn_video:hover {
   color: #ff0000;
   background: #fff;
   border-color: #000;
@@ -193,7 +200,31 @@ h3{
 }
 
 .btn-outline:hover {
-    color: #000;
-    background: #fff;
-    border-color: #fff;
+  color: #000;
+  background: #fff;
+  border-color: #fff;
+}
+
+.hidden{
+  display: none;
+}
+
+.close-btn{
+  margin: 2em 45em 1em;
+  border: 2px solid #000;
+  font-weight: bold;
+  color: #000;
+  background-color: white;
+  cursor: pointer;
+}
+
+.formular{
+  margin-bottom: 1em;
+}
+
+.section_formular{
+  margin: -9em 16em 0em;
+  line-height: 1.5;
+  height: auto;
+  overflow: hidden;
 }
