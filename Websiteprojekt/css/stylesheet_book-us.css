@@ -53,17 +53,9 @@
   color: white;
   float: left;
   position: relative;
-  top: 10px;
+  top: 11px;
   left: 10px
 }
-
-
-#company-name{
-  color: white;
-  font-size: 50px;
-  text-align: center;
-}
-
 
 header {
   position: absolute;
@@ -74,12 +66,18 @@ header {
   height: 65px;
 }
 
-a{
-  text-transform: uppercase;
-  letter-spacing: .2em;
+#company-name{
   color: white;
-  font-size: 1.25rem;
-  text-decoration: none;
+  font-size: 50px;
+  text-align: center;
+}
+
+#title{
+  text-align: center;
+}
+
+p{
+  margin: 0px;
 }
 
 h1 {
@@ -94,8 +92,7 @@ body {
   font-size: .96rem;
   color: #6c756d;
   text-align: justify;
-  width: 100%;
-  background-image: linear-gradient(white, white);
+  width: 100%
 }
 
 .container {
@@ -105,12 +102,13 @@ body {
 
 .container-left {
   float: left;
-  width: 45%
+  width: 55%;
 }
 
 .container-right {
   float: right;
-  width: 45%
+  width: 45%;
+  padding: 6% 0%;
 }
 
 .section {
@@ -118,12 +116,6 @@ body {
   line-height: 1.5;
   height: auto;
   overflow: hidden;
-}
-
-.image{
-  width: 30em;
-  height: 30em;
-  padding: 4em 4em;
 }
 
 .contentinfo{
@@ -141,4 +133,67 @@ h3{
 }
 .rights{
   text-align: center;
+}
+
+.btn_buchen{
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 40px 90px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: .1em;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin: 1.5% 36%;
+  background-color: #189ad3;
+  cursor: pointer;
+}
+
+.btn_buchen:hover{
+  color: #ff0000;
+  background: #fff;
+  border-color: #000;
+}
+
+.btn_video{
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 40px 106px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: .1em;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin: 1.5% 36%;
+  background-color: #189ad3;
+  cursor: pointer;
+}
+
+.btn_video:hover{
+  color: #ff0000;
+  background: #fff;
+  border-color: #000;
+}
+
+.btn_top{
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 0px;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: .1em;
+  margin-left: 45%;
+}
+
+.btn-outline:hover {
+    color: #000;
+    background: #fff;
+    border-color: #fff;
 }

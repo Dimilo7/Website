@@ -1,0 +1,54 @@
+<DOCTYPE! html>
+<html>
+  <head>
+    <main charset="utf-8">
+    <title>caught.</title>
+    <link rel="stylesheet" href="css/stylesheet_apply.css"></link>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>caught.</title>
+  </head>
+
+  <body>
+    <header role="banner">
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Homepage</a>
+        <a class="no-wrap" href="about.html">About us</a>
+        <a href="imagegallery.html">Gallery</a>
+        <a href="partners.html">Partners</a>
+        <a class="no-wrap" href="book-us.html">Book us</a>
+        <a href="apply.html">Apply</a>
+        <a href="impressum.html">Impressum</a>
+      </div>
+
+      <span class="nav-btn" onclick="openNav()">&#9776;</span>
+      <h4 id="company-name"> <i><stark>caught.</stark></i> </h4>
+
+    </header>
+
+    <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
+      <img id="title" src="images/apply.png" alt="Apply"></img>
+    </div>
+    
+    <footer class="contentinfo">
+      <h3 class="rights">Copyright ©2020 | All rights reserved<h3>
+    </footer>
+
+  </body>
+
+  <script>
+    AOS.init();
+
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+
+  </script>
+
+</html>

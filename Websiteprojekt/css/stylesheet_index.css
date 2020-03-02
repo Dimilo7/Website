@@ -51,8 +51,9 @@
   font-size: 30px;
   cursor: pointer;
   color: white;
-  float: left;
-  vertical-align: middle;
+  position: relative;
+  top: 10px;
+  left: 10px
 }
 
 
@@ -147,6 +148,14 @@ body {
 }
 
 .contentinfo{
-  padding: 5em;
-  background-color: #ffc809;
+  padding: 3em;
+  background-color: #189ad3;
+}
+
+h3{
+  font-size: 20px;
+  color: white;
+}
+.rights{
+  text-align: center;
 }
