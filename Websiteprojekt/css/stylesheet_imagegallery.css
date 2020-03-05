@@ -24,6 +24,7 @@
 }
 
 .footer{
+  font-family: century gothic;
   display: block;
 }
 
@@ -160,4 +161,21 @@ h3{
   color: #000;
   background: #fff;
   border-color: #fff;
+}
+
+.btn_zurück{
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 40px 90px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: .1em;
+  /*margin-left: 45%;
+  margin-right: 45%;*/
+  margin-top: 1%;
+  background-color: #189ad3;
+  cursor: pointer;
+  float: right;
 }
