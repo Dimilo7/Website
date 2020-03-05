@@ -1,0 +1,65 @@
+<DOCTYPE! html/>
+
+<html>
+  <head>
+  <title>Caught</title>
+
+    <link rel="stylesheet" href="css/stylesheet_imagegallery.css" type="text/css"/>
+    <link rel="stylesheet" href="css/lightbox.min.css" type="text/css"/>
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Homepage</a>
+        <a class="no-wrap" href="about.html">About us</a>
+        <a href="imagegallery.html">Gallery</a>
+        <a href="partners.html">Partners</a>
+        <a class="no-wrap" href="book-us.html">Book us</a>
+        <a href="apply.html">Apply</a>
+        <a href="impressum.html">Impressum</a>
+      </div>
+
+      <span class="nav-btn" onclick="openNav()">&#9776;</span>
+      <h4 id="company-name"> <i><stark>caught.</stark></i> </h4>
+    </header>
+
+    <div class="section">
+           <img src="images/gallery.png" alt="">
+     </div>
+
+    <div class="section">
+      <div class="gallery">
+        <a href="images/tesla_auto1.jpg" data-lightbox="mygallery" data-title="Avignon"> <img class="image" src="images/tesla_auto1.jpg" alt="Avignon"> </a>
+        <a href="images/tesla_auto2.jpg" data-lightbox="mygallery" data-title="Avignon"> <img class="image" src="images/tesla_auto2.jpg" alt="Avignon"> </a>
+        <a href="images/tesla_auto3.jpg" data-lightbox="mygallery" data-title="Bright Mountains"> <img class="image" src="images/tesla_auto3.jpg" alt="Mountains"> </a>
+        <a href="images/tesla_auto4.jpg" data-lightbox="mygallery" data-title="Pont du Gard"> <img class="image" src="images/tesla_auto4.jpg"> </a>
+        <a href="images/tesla_auto5.jpg" data-lightbox="mygallery" data-title="Sea View"> <img class="image" src="images/tesla_auto5.jpg"> </a>
+        <a href="images/tesla_auto6.jpg" data-lightbox="mygallery" data-title="Snowy Mountains"> <img class="image" src="images/tesla_auto6.jpg"> </a>
+      </div>
+    </div>
+
+    <footer class="contentinfo">
+      <div><a href=#top class="btn_top btn-outline">Nach oben</a></div>
+      <div><h3 class="rights">Copyright ©2020 | All rights reserved<h3></div>
+    </footer>
+
+  </body>
+
+  <script>
+    AOS.init();
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+</html>
+<!--32.659-->
