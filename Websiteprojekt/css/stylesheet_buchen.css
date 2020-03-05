@@ -78,8 +78,13 @@ p{
 }
 
 h1 {
+  font-family: century gothic;
   font-size: 50px;
   color: black;
+}
+
+h4{
+  font-family: century gothic;
 }
 
 body {

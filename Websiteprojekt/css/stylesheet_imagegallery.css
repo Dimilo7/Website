@@ -19,7 +19,7 @@
 }
 
 .image{
-  width: 32.4%;
+  width: 32%;
   height: 40%;
 }
 
@@ -37,6 +37,7 @@ a {
 
 h4 {
   margin: 0em;
+  font-family: century gothic;
 }
 
 .sidenav {
@@ -124,8 +125,8 @@ body {
   font-weight: 400;
   font-size: .96rem;
   color: #6c756d;
-  text-align: justify;
   width: 100%;
+
 }
 
 .contentinfo{

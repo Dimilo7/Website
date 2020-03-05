@@ -83,12 +83,13 @@ a {
 
 h1 {
   font-size: 50px;
+  font-family: century gothic;
   color: black;
 }
 
 body {
   margin: 0px;
-  font-family: Times;
+  font-family: century gothic;
   font-weight: 400;
   font-size: .96rem;
   color: #6c756d;
@@ -110,6 +111,7 @@ body {
   color: white;
   text-align: center;
   padding-top: 20%;
+  font-family: century gothic;
 }
 
 .slogan {
@@ -117,6 +119,7 @@ body {
   color: white;
   text-align: center;
   padding-top: 6em;
+  font-family: century gothic;
 }
 
 .container {
