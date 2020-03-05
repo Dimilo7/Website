@@ -189,9 +189,14 @@ h3{
   border-color: #000;
 }
 
+.footer{
+  /*font-family: century gothic;*/
+  display: block;
+}
+
 h5{
-  margin: 0em;
   font-size: 1em;
+  margin: 0em;
   color: #000;
 }
 

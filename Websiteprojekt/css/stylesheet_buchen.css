@@ -78,18 +78,13 @@ p{
 }
 
 h1 {
-  font-family: century gothic;
   font-size: 50px;
   color: black;
 }
 
-h4{
-  font-family: century gothic;
-}
-
 body {
   margin: 0px;
-  font-family: Times;
+  font-family: century gothic;
   font-weight: 400;
   font-size: .96rem;
   color: #6c756d;
