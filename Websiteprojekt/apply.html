@@ -51,49 +51,53 @@
     <div id = "bewerbungsformular" class="section_bewerbungsformular hidden">
       <form action="formular.php" method="post">
 
+    <div class="border">
+    <button id="close" class="close-btn" type="button">X</button>
+
       <div class="formular">
       <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
       </div>
 
       <div class="formular">
       <h5>Vorname: </h5>
-      <input type="text" name="vorname" size="20" maxlength="30" />
+      <input type="text" name="vorname" size="100" maxlength="300" />
       </div>
 
       <div class="formular">
       <h5>Nachname: </h5>
-      <input type="text" name="nachname" size="20" maxlength="30" />
+      <input type="text" name="nachname" size="100" maxlength="300" />
       </div>
 
       <div class="formular">
       <h5>e-Mail: </h5>
-      <input type="text" name="e-mail" size="20" maxlength="30" />
+      <input type="text" name="e-mail" size="100" maxlength="300" />
       </div>
 
       <div class="formular">
       <h5>Telefonnummer: </h5>
-      <input type="text" name="telefonnummer" size="20" maxlength="30" />
+      <input type="text" name="telefonnummer" size="100" maxlength="300" />
       </div>
 
       <div class="formular">
       <h5>Motivationsschreiben: </h5>
-      <input type="text" name="motivationsschreiben" size="20" maxlength="30" />
+      <input type="text" name="motivationsschreiben" size="100" maxlength="300" />
       </div>
 
       <div class="formular">
       <h5>Bilder anhängen: </h5>
-      <input type="text" name="bilder" size="20" maxlength="30" />
+      <input type="text" name="bilder" size="100" maxlength="300" />
       </div>
 
       <div class="formular">
       <h5>Bemerkungen: </h5>
-      <input type="text" name="bemerkungen" size="20" maxlength="1000" />
+      <input type="text" name="bemerkungen" size="100" maxlength="1000" />
       </div>
 
       <div class="formular">
-      <input type="submit" value="Abschicken" />
+      <input id="btn_abschicken" type="submit" value="Abschicken" />
       </div>
     </div>
+  </div>
 
       </form>
 
@@ -123,6 +127,9 @@
 
     jQuery( "#buchen" ).click(function() {
     jQuery("#bewerbungsformular").removeClass("hidden");
+    });
+    jQuery( ".close-btn" ).click(function() {
+    jQuery("#bewerbungsformular").addClass("hidden");
     });
 
   </script>

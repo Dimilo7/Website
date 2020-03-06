@@ -205,3 +205,29 @@ h5{
   height: 30em;
   padding: 4em 4em;
 }
+
+.border{
+  border: 2px solid #000;
+  margin: 0% 20%;
+  padding: 5% 5% 0% 5%;
+}
+
+#btn_abschicken{
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #fff;
+  letter-spacing: .1em;
+  background-color: #189ad3;
+  margin: 3% 40%;
+}
+
+.close-btn{
+  margin: -8% -8% 0% 0%;
+  border: 2px solid #000;
+  font-weight: bold;
+  color: #000;
+  background-color: white;
+  cursor: pointer;
+  float: right;
