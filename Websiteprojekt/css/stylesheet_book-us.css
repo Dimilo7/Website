@@ -211,12 +211,13 @@ h5{
 }
 
 .close-btn{
-  margin: 2em 45em 1em;
+  margin: -8% -8% 0% 0%;
   border: 2px solid #000;
   font-weight: bold;
   color: #000;
   background-color: white;
   cursor: pointer;
+  float: right;
 }
 
 .formular{
@@ -224,8 +225,25 @@ h5{
 }
 
 .section_formular{
-  margin: -9em 16em 0em;
+  margin: -7em 16em 0em;
   line-height: 1.5;
   height: auto;
   overflow: hidden;
+}
+
+.border{
+  border: 2px solid #000;
+  margin: 0% 20%;
+  padding: 5% 5% 0% 5%;
+}
+
+#btn_abschicken{
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #fff;
+  letter-spacing: .1em;
+  background-color: #189ad3;
+  margin: 3% 40%;
 }
