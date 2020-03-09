@@ -1,15 +1,85 @@
+/* Headings*/
+
+header {
+  position: absolute;
+  top: 0px;
+  background-color: #189ad3;
+  width: 100%;
+  z-index: 5;
+  height: 65px;
+}
+
+body {
+  margin: 0px;
+  font-family: century gothic;
+  font-weight: 400;
+  font-size: .96rem;
+  color: #6c756d;
+  text-align: justify;
+  width: 100%
+}
+
+p{
+  margin: 0px;
+}
+
+h1 {
+  font-size: 50px;
+  color: black;
+}
+
+h3{
+  font-size: 20px;
+  color: white;
+}
+
+h4{
+  margin: 0em;
+  font-family: century gothic;
+}
+
+h5{
+  margin: 0em;
+  font-size: 1em;
+  color: #000;
+}
+
+/* ID's */
+#company-name{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+#title{
+  text-align: center;
+}
+
+#btn_abschicken{
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #fff;
+  letter-spacing: .1em;
+  background-color: #189ad3;
+  margin: 3% 40%;
+}
+
+/* Classes */
+
 /* The side navigation menu */
 .sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
 }
 
 .navigation-wrapper {
@@ -18,7 +88,6 @@
   align-items: center;
 }
 
-/* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -28,12 +97,10 @@
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
-/* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -57,42 +124,12 @@
   left: 10px
 }
 
-header {
-  position: absolute;
-  top: 0px;
-  background-color: #189ad3;
-  width: 100%;
-  z-index: 5;
-  height: 65px;
-}
-
-#company-name{
-  color: white;
-  font-size: 50px;
-  text-align: center;
-}
-
-#title{
-  text-align: center;
-}
-
-p{
-  margin: 0px;
-}
-
-h1 {
-  font-size: 50px;
-  color: black;
-}
-
-body {
-  margin: 0px;
-  font-family: century gothic;
-  font-weight: 400;
-  font-size: .96rem;
-  color: #6c756d;
-  text-align: justify;
-  width: 100%
+/* Layout */
+.section {
+  margin: 7em 16em;
+  line-height: 1.5;
+  height: auto;
+  overflow: hidden;
 }
 
 .container {
@@ -111,38 +148,38 @@ body {
   padding: 6% 0%;
 }
 
-.section {
-  margin: 7em 16em;
-  line-height: 1.5;
-  height: auto;
-  overflow: hidden;
-}
-
+/* Footer */
 .contentinfo{
   padding: 3em;
   background-color: #189ad3;
-}
-
-h4{
-  margin: 0em;
-  font-family: century gothic;
-}
-
-h3{
-  font-size: 20px;
-  color: white;
-}
-
-h5{
-  margin: 0em;
-  font-size: 1em;
-  color: #000;
 }
 
 .rights{
   text-align: center;
 }
 
+.btn_top{
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 0px;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: .1em;
+  margin-left: 45%;
+}
+
+.btn-outline:hover {
+  color: #000;
+  background: #fff;
+  border-color: #fff;
+}
+
+/* Buttons */
+
+/* Button to book */
 .btn_buchen{
   border: 2px solid #fff;
   text-transform: uppercase;
@@ -165,6 +202,7 @@ h5{
   border-color: #000;
 }
 
+/* Button for the video */
 .btn_video{
   border: 2px solid #fff;
   text-transform: uppercase;
@@ -187,27 +225,22 @@ h5{
   border-color: #000;
 }
 
-.btn_top{
-  border: 2px solid #fff;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 0px;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-  letter-spacing: .1em;
-  margin-left: 45%;
+/* Formular */
+.section_formular{
+  margin: -7em 16em 0em;
+  line-height: 1.5;
+  height: auto;
+  overflow: hidden;
 }
 
-.btn-outline:hover {
-  color: #000;
-  background: #fff;
-  border-color: #fff;
+.formular{
+  margin-bottom: 1em;
 }
 
-.hidden{
-  display: none;
+.border{
+  border: 2px solid #000;
+  margin: 0% 20%;
+  padding: 5% 5% 0% 5%;
 }
 
 .close-btn{
@@ -220,30 +253,6 @@ h5{
   float: right;
 }
 
-.formular{
-  margin-bottom: 1em;
-}
-
-.section_formular{
-  margin: -7em 16em 0em;
-  line-height: 1.5;
-  height: auto;
-  overflow: hidden;
-}
-
-.border{
-  border: 2px solid #000;
-  margin: 0% 20%;
-  padding: 5% 5% 0% 5%;
-}
-
-#btn_abschicken{
-  border: 2px solid #fff;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 10px 20px;
-  color: #fff;
-  letter-spacing: .1em;
-  background-color: #189ad3;
-  margin: 3% 40%;
+.hidden{
+  display: none;
 }

@@ -1,3 +1,24 @@
+/* Headings */
+
+header {
+  position: absolute;
+  top: 0px;
+  background-color: #189ad3;
+  width: 100%;
+  z-index: 5;
+  height: 65px;
+}
+
+body {
+  margin: 0px;
+  font-family: century gothic;
+  font-weight: 400;
+  font-size: .96rem;
+  color: black;
+  text-align: justify;
+  width: 100%;
+}
+
 a {
   text-transform: uppercase;
   letter-spacing: .2em;
@@ -21,12 +42,17 @@ h3{
   color: white;
 }
 
-.footer{
-  display: block;
-}
-
 h4 {
   margin: 0em;
+}
+
+
+/* ID's */
+
+#company-name{
+  color: white;
+  font-size: 50px;
+  text-align: center;
 }
 
 #title {
@@ -35,50 +61,27 @@ h4 {
   margin-top: 5%;
 }
 
-body {
-  margin: 0px;
-  font-family: century gothic;
-  font-weight: 400;
-  font-size: .96rem;
-  color: black;
-  text-align: justify;
-  width: 100%;
-}
-
 #logo {
   width: 7%;
   height: auto;
   float: right;
 }
 
-.section {
-  margin: 7em 16em;
-  line-height: 1.5;
-  height: auto;
-  overflow: hidden;
-}
 
-.page {
-  margin-left: 5%;
-  margin-right: 10%;
-  margin-top: 2%;
-}
+/* Classes */
 
-.abstand {
-padding-top: 10px;
-}
-
+/* The side navigation menu */
 .sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
 }
 
 .navigation-wrapper {
@@ -87,7 +90,6 @@ padding-top: 10px;
   align-items: center;
 }
 
-/* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -97,12 +99,10 @@ padding-top: 10px;
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
-/* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -127,29 +127,23 @@ padding-top: 10px;
   left: 10px
 }
 
-#company-name{
-  color: white;
-  font-size: 50px;
-  text-align: center;
+/* Layout */
+.section {
+  margin: 7em 16em;
+  line-height: 1.5;
+  height: auto;
+  overflow: hidden;
 }
 
-header {
-  position: absolute;
-  top: 0px;
-  background-color: #189ad3;
-  width: 100%;
-  z-index: 5;
-  height: 65px;
+/*Space between informations*/
+.gap {
+padding-top: 10px;
 }
 
+/* Footer */
 .contentinfo{
   padding: 3em;
   background-color: #189ad3;
-}
-
-h3{
-  font-size: 20px;
-  color: white;
 }
 
 .rights{
