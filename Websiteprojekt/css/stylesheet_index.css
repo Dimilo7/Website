@@ -8,19 +8,6 @@ header {
   height: 65px;
 }
 
-a {
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  color: white;
-  font-size: 1.25rem;
-  text-decoration: none;
-}
-
-h1 {
-  font-size: 50px;
-  color: black;
-}
-
 body {
   margin: 0px;
   font-family: century gothic;
@@ -33,6 +20,19 @@ body {
 
 footer{
   display: block;
+}
+
+a {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: white;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+  color: black;
 }
 
 h3{
