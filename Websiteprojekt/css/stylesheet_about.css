@@ -1,15 +1,80 @@
+/* Headings */
+
+header {
+  position: absolute;
+  top: 0px;
+  background-color: #189ad3;
+  width: 100%;
+  z-index: 5;
+  height: 65px;
+}
+
+body {
+  margin: 0px;
+  font-family: century gothic;
+  font-weight: 400;
+  font-size: .96rem;
+  color: #6c756d;
+  text-align: justify;
+  width: 100%;
+  background-image: linear-gradient(white, white);
+}
+
+footer{
+  display: block;
+}
+
+a{
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: white;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+  color: black;
+}
+
+h3{
+  font-size: 20px;
+  color: white;
+}
+
+h4{
+  margin: 0em;
+}
+
+
+/* ID's */
+
+#title{
+  color: black;
+  font-weight: bold;
+}
+
+#company-name{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+/* Classes */
+
 /* The side navigation menu */
 .sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
 }
 
 .navigation-wrapper {
@@ -18,7 +83,6 @@
   align-items: center;
 }
 
-/* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -28,12 +92,10 @@
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
-/* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -58,44 +120,13 @@
 }
 
 
-#company-name{
-  color: white;
-  font-size: 50px;
-  text-align: center;
-}
+/* Layout */
 
-
-header {
-  position: absolute;
-  top: 0px;
-  background-color: #189ad3;
-  width: 100%;
-  z-index: 5;
-  height: 65px;
-}
-
-a{
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  color: white;
-  font-size: 1.25rem;
-  text-decoration: none;
-}
-
-h1 {
-  font-size: 50px;
-  color: black;
-}
-
-body {
-  margin: 0px;
-  font-family: century gothic;
-  font-weight: 400;
-  font-size: .96rem;
-  color: #6c756d;
-  text-align: justify;
-  width: 100%;
-  background-image: linear-gradient(white, white);
+.section {
+  margin: 7em 16em;
+  line-height: 1.5;
+  height: auto;
+  overflow: hidden;
 }
 
 .container {
@@ -113,12 +144,8 @@ body {
   width: 45%
 }
 
-.section {
-  margin: 7em 16em;
-  line-height: 1.5;
-  height: auto;
-  overflow: hidden;
-}
+
+/* Layout of the pictures in the sections */
 
 .image{
   width: 30em;
@@ -126,22 +153,12 @@ body {
   padding: 4em 4em;
 }
 
-h4{
-  margin: 0em;
-}
+
+/* footer */
 
 .contentinfo{
   padding: 3em;
   background-color: #189ad3;
-}
-
-footer{
-  display: block;
-}
-
-h3{
-  font-size: 20px;
-  color: white;
 }
 
 .rights{
@@ -165,9 +182,4 @@ h3{
   color: #000;
   background: #fff;
   border-color: #fff;
-}
-
-#title{
-  color: black;
-  font-weight: bold;
 }
