@@ -155,14 +155,14 @@ h4 {
   margin-left: 45%;
 }
 
-.btn-outline:hover {
+.btn_outline:hover {
   color: #000;
   background: #fff;
   border-color: #fff;
 }
 
 /* button to get back from subgroups (e.g google, spacex)*/
-.btn_zurück{
+.btn_goback{
   border: 2px solid #fff;
   text-transform: uppercase;
   font-size: 25px;

@@ -55,7 +55,7 @@ h5{
   text-align: center;
 }
 
-#btn_abschicken{
+#btn_submit{
   border: 2px solid #fff;
   text-transform: uppercase;
   font-weight: bold;
@@ -171,7 +171,7 @@ h5{
   margin-left: 45%;
 }
 
-.btn-outline:hover {
+.btn_outline:hover {
   color: #000;
   background: #fff;
   border-color: #fff;
@@ -180,7 +180,7 @@ h5{
 /* Buttons */
 
 /* Button to book */
-.btn_buchen{
+.btn_bookus{
   border: 2px solid #fff;
   text-transform: uppercase;
   font-size: 25px;
@@ -196,7 +196,7 @@ h5{
   cursor: pointer;
 }
 
-.btn_buchen:hover{
+.btn_bookus:hover{
   color: #ff0000;
   background: #fff;
   border-color: #000;
@@ -243,7 +243,7 @@ h5{
   padding: 5% 5% 0% 5%;
 }
 
-.close-btn{
+.btn_close{
   margin: -8% -8% 0% 0%;
   border: 2px solid #000;
   font-weight: bold;
