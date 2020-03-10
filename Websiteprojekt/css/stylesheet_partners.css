@@ -124,7 +124,7 @@ h4 {
 
 /* Layout */
 .section {
-  margin: 15em 16em;
+  margin: 7em 16em;
   line-height: 1.5;
   height: auto;
   overflow: hidden;
@@ -170,14 +170,13 @@ h4 {
   margin-left: 45%;
 }
 
-.btn-outline:hover {
+.btn_outline:hover {
   color: #000;
   background: #fff;
   border-color: #fff;
 }
 
-/* Button to get to their website */
-.btn_website{
+.btn_website {
   border: 2px solid #fff;
   text-transform: uppercase;
   font-size: 25px;
@@ -188,13 +187,13 @@ h4 {
   letter-spacing: .1em;
   margin-left: 45%;
   margin-right: 45%;
-  margin: 13% 36%;
+  margin: 13% 25%;
   background-color: #189ad3;
   cursor: pointer;
   transition-duration: 0.4s;
 }
 
-.btn_website:hover{
+.btn_website:hover {
   color: #ff0000;
   background: #fff;
   border-color: #000;
