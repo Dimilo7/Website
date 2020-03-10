@@ -19,6 +19,10 @@ body {
   width: 100%;
 }
 
+footer{
+  display: block;
+}
+
 a {
   text-transform: uppercase;
   letter-spacing: .2em;

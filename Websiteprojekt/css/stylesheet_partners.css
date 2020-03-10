@@ -19,6 +19,10 @@ header {
   height: 65px;
 }
 
+footer{
+  display: block;
+}
+
 a {
   text-transform: uppercase;
   letter-spacing: .2em;
