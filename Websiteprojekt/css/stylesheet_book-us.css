@@ -194,6 +194,7 @@ h5{
   margin: 1.5% 36%;
   background-color: #189ad3;
   cursor: pointer;
+  transition-duration: 0.4s;
 }
 
 .btn_bookus:hover{
