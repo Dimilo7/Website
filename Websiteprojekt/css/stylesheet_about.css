@@ -60,6 +60,10 @@ h4{
   text-align: center;
 }
 
+#young_marco{
+  width: 100%;
+  height: auto;
+}
 
 /* Classes */
 
@@ -143,16 +147,6 @@ h4{
   float: right;
   width: 45%
 }
-
-
-/* Layout of the pictures in the sections */
-
-.image{
-  width: 30em;
-  height: 30em;
-  padding: 4em 4em;
-}
-
 
 /* footer */
 

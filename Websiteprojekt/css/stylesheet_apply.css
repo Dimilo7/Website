@@ -58,6 +58,10 @@ h5{
   margin: 3% 40%;
 }
 
+#application{
+  width: 100%;
+  height: auto;
+}
 
 /* Classes */
 
@@ -233,11 +237,4 @@ h5{
 
 .hidden{
   display: none;
-}
-
-/* Layout of pictures in the section*/
-.image{
-  width: 30em;
-  height: 30em;
-  padding: 4em 4em;
 }
