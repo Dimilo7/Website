@@ -10,6 +10,7 @@
   </head>
 
   <body>
+    
     <header role="banner">
 
       <div id="mySidenav" class="sidenav">
@@ -27,89 +28,89 @@
       <h4 id="company-name"> <i><stark>caught.</stark></i> </h4>
     </header>
 
-    <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-      <img id="title" src="images/apply.png" alt="Apply"></img>
-    </div>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
+        <img id="title" src="images/apply.png" alt="Apply"></img>
+      </div>
 
-    <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-      <div class="container">
-        <div class="container-left">
-          <h1> Bewerben </h1>
-          <p>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
+        <div class="container">
+          <div class="container-left">
+            <h1> Bewerben </h1>
+            <p>
             Sind Sie ein fresher, junger, künstlerischer, leidenschaftlicher Fotograph, haben ein Auge fürs Schöne und ein Fabel für Design und Fotografie? Dann bewerben sie sich jetzt als Freelancer bei caught.. Wir bieten ein produktives und ideenreiches Umfeld an, in dem Sie sich künstlerisch austoben können. Sie werden in der Welt als professioneller Fotograph herumreisen und für die einflussreichsten Konzerne unserer Zeit Aufträge ausführen. Selbstständigkeit ist einer unserer wichstigsten Werte. Für diese Aufgaben ist man mit einer sozialen, offenen und kommunikativen Persönlichkeit bestens ausgerüstet, die mit jeder Situation klar kommen muss. Sie sollten kompetitiv, leistungsstark und immer auf der Suche nach der nächsten Herausforderung sein. Finden Sie sich selbst in dem Text wieder und sind bereit, jedes Motiv zu fotografieren, dann bewerben Sie sich jetzt! Drücken Sie dafür auf denn unten dargestellten Knopf.
-          </p>
+            </p>
+          </div>
+          <div class="container-right">
+            <img id="application" src="images/bewerbungen.png" alt="Our company"></img>
+          </div>
         </div>
-        <div class="container-right">
-          <img id="application" src="images/bewerbungen.png" alt="Our company"></img>
-        </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <button id="apply" class="btn_apply" type="button">Hier bewerben!</button>
-    </div>
-
-    <div id = "application_form" class="section_application_form hidden">
-      <form action="formular_apply.php" method="post">
-
-    <div class="border">
-    <button id="close" class="close-btn" type="button">X</button>
-
-      <div class="formular">
-      <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
       </div>
 
-      <div class="formular">
-      <h5>Vorname: </h5>
-      <input type="text" name="surName" size="100" maxlength="300" />
+      <div class="section">
+        <button id="apply" class="btn_apply" type="button">Hier bewerben!</button>
       </div>
 
-      <div class="formular">
-      <h5>Nachname: </h5>
-      <input type="text" name="lastName" size="100" maxlength="300" />
+      <div id = "application_form" class="section_application_form hidden">
+        <form action="formular_apply.php" method="post">
+
+          <div class="border">
+            <button id="close" class="close-btn" type="button">X</button>
+
+            <div class="formular">
+              <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
+            </div>
+
+            <div class="formular">
+              <h5>Vorname: </h5>
+              <input type="text" name="surName" size="100" maxlength="300" />
+            </div>
+
+            <div class="formular">
+              <h5>Nachname: </h5>
+              <input type="text" name="lastName" size="100" maxlength="300" />
+            </div>
+
+            <div class="formular">
+              <h5>e-Mail: </h5>
+              <input type="text" name="eMail" size="100" maxlength="300" />
+            </div>
+
+            <div class="formular">
+              <h5>Telefonnummer: </h5>
+              <input type="text" name="phoneNumber" size="100" maxlength="300" />
+            </div>
+
+            <div class="formular">
+              <h5>Motivationsschreiben: </h5>
+              <label> Das Motivationsschreiben soll mindestens eine A4 Seite umfassen und im Anhang einen Lebenslauf beinhalten <br/>
+              <input name="datei" type="file" size="50" accept="text/*"></label>
+            </div>
+
+            <div class="formular">
+              <h5>Bilder anhängen: </h5>
+              <label> Bitte laden Sie uns drei von Ihnen aufgenommenen Bilder hoch!
+              <input name="datei" type="file" size="50" accept="text/*"></label>
+            </div>
+
+            <div class="formular">
+              <h5>Bemerkungen: </h5>
+              <input type="text" name="comment" size="100" maxlength="1000" />
+            </div>
+
+            <div class="formular">
+              <input id="btn_submit" type="submit" value="Abschicken" />
+            </div>
+          </div>
+        </form>
       </div>
 
-      <div class="formular">
-      <h5>e-Mail: </h5>
-      <input type="text" name="eMail" size="100" maxlength="300" />
-      </div>
-
-      <div class="formular">
-      <h5>Telefonnummer: </h5>
-      <input type="text" name="phoneNumber" size="100" maxlength="300" />
-      </div>
-
-      <div class="formular">
-      <h5>Motivationsschreiben: </h5>
-      <label> Das Motivationsschreiben soll mindestens eine A4 Seite umfassen und im Anhang einen Lebenslauf beinhalten <br/>
-      <input name="datei" type="file" size="50" accept="text/*">
-      </div>
-
-      <div class="formular">
-      <h5>Bilder anhängen: </h5>
-      <label> Bitte laden Sie uns drei von Ihnen aufgenommenen Bilder hoch!
-      <input name="datei" type="file" size="50" accept="text/*"></label>
-      </div>
-
-      <div class="formular">
-      <h5>Bemerkungen: </h5>
-      <input type="text" name="comment" size="100" maxlength="1000" />
-      </div>
-
-      <div class="formular">
-      <input id="btn_submit" type="submit" value="Abschicken" />
-      </div>
-    </div>
-  </div>
-
-      </form>
-
-    <footer class="contentinfo">
-      <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
-      <h3 class="rights">Copyright ©2020 | All rights reserved<h3>
-    </footer>
+      <footer class="contentinfo">
+        <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
+        <h3 class="rights">Copyright ©2020 | All rights reserved<h3>
+      </footer>
 
   </body>
+
 
   <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -118,16 +119,20 @@
   </script>
 
   <script>
+    /* slide effect */
     AOS.init();
 
+    /* open navbar */
     function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     }
 
+    /* close navbar */
     function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     }
 
+    /* open and close formular */
     jQuery( "#apply" ).click(function() {
     jQuery("#application_form").removeClass("hidden");
     });

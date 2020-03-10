@@ -8,217 +8,215 @@
     <title>caught.</title>
   </head>
 
-<body>
+  <body>
 
-  <header role="banner">
+    <header role="banner">
 
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Homepage</a>
-      <a class="no-wrap" href="about.html">About us</a>
-      <a href="imagegallery.html">Gallery</a>
-      <a href="partners.html">Partners</a>
-      <a class="no-wrap" href="book-us.html">Book us</a>
-      <a href="apply.html">Apply</a>
-      <a href="impressum.html">Impressum</a>
-    </div>
-
-    <span class="nav-btn" onclick="openNav()">&#9776;</span>
-    <h4 id="company-name"> <i><stark>caught.</stark></i> </h4>
-
-  </header>
-  <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-    <img id="title" src="images/book us.png" alt="Book us"></img>
-  </div>
-
-  <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-    <p>Sind Sie auf der Suche nach einem unvorstellbaren Photoshooting oder wollen Sie Ihre Photografiekünste vollumfänglich verbessern, entweder mit einem persönlichen Coaching mit einem unserer Star-Fotographen, oder mit einem Gruppenkurs der Ihnen die Techniken und Tricks der professionellen Fotografie näherbringt? </p>
-  </div>
-
-  <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-    <div class="container">
-      <div class="container-left">
-        <h1> Photoshooting </h1>
-        <p>Hier finden Sie alles was das Herz begehrt. Jedes Fotoshooting wird in unserem perfekt eingerichteten Fotostudio geschossen. Wir bearbeiten die Bilder auch auf Wunsch! Unser Angebot umschliesst:
-          <ul>
-            <li>Business Fotoshooting für ein Bewerbungsfoto: 1 Bild ab 109.-, ca 20 Min. </li>
-            <li>Familien Fotoshooting: 220.- Grundkosten für ein Bild, jedes weitere für 25.-, ca. 30 Min.</li>
-            <li>Charakter Portraitfoto: 2 professionell bearbeitete Bilder ab 320.-, ca 45 Min.</li>
-            <li>Exklusives Fotoshooting: Mit Make up und Hairstyling, sowie 2-3 verschiedene Outfits, inkludiert 3 professionell bearbeitete Bilder, ca. 60 Min.</li>
-          </ul>
-          Klicken Sie auf "Jetzt Buchen" falls Sie Interesse haben und lassen Sie uns wissen, für welches Angebot Sie sich anmelden.
-        </p>
+      <!-- navigationbar -->
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Homepage</a>
+        <a class="no-wrap" href="about.html">About us</a>
+        <a href="imagegallery.html">Gallery</a>
+        <a href="partners.html">Partners</a>
+        <a class="no-wrap" href="book-us.html">Book us</a>
+        <a href="apply.html">Apply</a>
+        <a href="impressum.html">Impressum</a>
       </div>
-      <div class="container-right">
-        <button id="btn_photoshooting" class="btn_bookus" type="button">Jetzt buchen!</button>
-        <a href="https://www.youtube.com/watch?v=yTJ8xsqQxzs" target="_blank"><button class="btn_video" type="button">Zum Video!</button></a>
+
+      <span class="nav-btn" onclick="openNav()">&#9776;</span>
+      <h4 id="company-name"> <i><stark>caught.</stark></i> </h4>
+
+    </header>
+
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
+        <img id="title" src="images/book us.png" alt="Book us"></img>
       </div>
-    </div>
-  </div>
 
-  <div id = "photoshooting" class="section_formular hidden">
-    <form action="formular_booking.php" method="post">
-
-  <div class="border">
-    <button id="close" class="btn_close" type="button">X</button>
-    <div class="formular">
-    <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
-    </div>
-
-    <input class="hidden" name="type" type="photoshooting" value="photoshooting" />
-
-    <div class="formular">
-    <h5>Vorname: </h5>
-    <input type="text" name="surName" size="100" maxlength="300" />
-    </div>
-
-    <div class="formular">
-    <h5>Nachname: </h5>
-    <input type="text" name="lastName" size="100" maxlength="300" />
-    </div>
-
-    <div class="formular">
-    <h5>e-Mail: </h5>
-    <input type="text" name="eMail" size="100" maxlength="300" />
-    </div>
-
-    <div class="formular">
-    <h5>Telefonnummer: </h5>
-    <input type="text" name="phoneNumber" size="100" maxlength="300" />
-    </div>
-
-    <div class="formular">
-    <h5>Bemerkungen: </h5>
-    <input type="text" name="comment" size="100" maxlength="1000" />
-    </div>
-
-    <div class="formular">
-    <input id="btn_submit" type="submit" value="Abschicken" />
-    </div>
-
-    </form>
-  </div>
-</div>
-
-  <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-    <div class="container">
-      <div class="container-left">
-        <h1> Coaching </h1>
-        <p>Bei unserem Coachingangebot werden Sie von einem unserer Top-Fotografen individuel betreut. Dieser Kurs ist perfekt für fortgeschrittene Fotografen, jeder kann jedoch profitieren. Er nimmt sich Ihren Interessen, Ihren bisherigen Arbeiten an, berät Sie und lehrt Ihnen die Technik unserer ausserdentlichen Fotografiekünsten. Wir gehen detailreich auf Ihre Projekte und Bilder ein, damit Sie möglichst viel von unserem Coaching mitnehmen können. Falls Sie sich angesprochen fühlen, drücken Sie auf "Jetzt Buchen". Vergessen Sie nicht, ihre Bilder und bisherigen Erfahrungen mitzuteilen.</p>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
+        <p>Sind Sie auf der Suche nach einem unvorstellbaren Photoshooting oder wollen Sie Ihre Photografiekünste vollumfänglich verbessern, entweder mit einem persönlichen Coaching mit einem unserer Star-Fotographen, oder mit einem Gruppenkurs der Ihnen die Techniken und Tricks der professionellen Fotografie näherbringt? </p>
       </div>
-      <div class="container-right">
-        <button id="btn_coaching" class="btn_bookus" type="button">Jetzt buchen!</button>
-        <a href="https://www.youtube.com/watch?v=7QWHKFcjP_0" target="_blank"><button class="btn_video" type="button">Zum Video!</button></a>
+
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
+        <div class="container">
+          <div class="container-left">
+            <h1> Photoshooting </h1>
+            <p>Hier finden Sie alles was das Herz begehrt. Jedes Fotoshooting wird in unserem perfekt eingerichteten Fotostudio geschossen. Wir bearbeiten die Bilder auch auf Wunsch! Unser Angebot umschliesst:
+              <ul>
+                <li>Business Fotoshooting für ein Bewerbungsfoto: 1 Bild ab 109.-, ca 20 Min. </li>
+                <li>Familien Fotoshooting: 220.- Grundkosten für ein Bild, jedes weitere für 25.-, ca. 30 Min.</li>
+                <li>Charakter Portraitfoto: 2 professionell bearbeitete Bilder ab 320.-, ca 45 Min.</li>
+                <li>Exklusives Fotoshooting: Mit Make up und Hairstyling, sowie 2-3 verschiedene Outfits, inkludiert 3 professionell bearbeitete Bilder, ca. 60 Min.</li>
+              </ul>
+                Klicken Sie auf "Jetzt Buchen" falls Sie Interesse haben und lassen Sie uns wissen, für welches Angebot Sie sich anmelden.
+            </p>
+          </div>
+          <div class="container-right">
+            <button id="btn_photoshooting" class="btn_bookus" type="button">Jetzt buchen!</button>
+            <a href="https://www.youtube.com/watch?v=yTJ8xsqQxzs" target="_blank"><button class="btn_video" type="button">Zum Video!</button></a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <div id = "coaching" class="section_formular hidden">
-    <form action="formular_booking.php" method="post">
+      <div id = "photoshooting" class="section_formular hidden">
+        <form action="formular_booking.php" method="post">
 
-  <div class="border">
-  <button id="close" class="btn_close" type="button">X</button>
-    <div class="formular">
-    <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
-    </div>
+          <div class="border">
+            <button id="close" class="btn_close" type="button">X</button>
+            <div class="formular">
+              <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
+            </div>
 
-    <input class="hidden" name="type" type="coaching" value="coaching" />
+            <input class="hidden" name="type" type="photoshooting" value="photoshooting" />
 
-    <div class="formular">
-    <h5>Vorname: </h5>
-    <input type="text" name="surName" size="100" maxlength="300" />
-    </div>
+            <div class="formular">
+              <h5>Vorname: </h5>
+              <input type="text" name="surName" size="100" maxlength="300" />
+            </div>
 
-    <div class="formular">
-    <h5>Nachname: </h5>
-    <input type="text" name="lastName" size="100" maxlength="300" />
-    </div>
+            <div class="formular">
+              <h5>Nachname: </h5>
+              <input type="text" name="lastName" size="100" maxlength="300" />
+            </div>
 
-    <div class="formular">
-    <h5>e-Mail: </h5>
-    <input type="text" name="eMail" size="100" maxlength="300" />
-    </div>
+            <div class="formular">
+              <h5>e-Mail: </h5>
+              <input type="text" name="eMail" size="100" maxlength="300" />
+            </div>
 
-    <div class="formular">
-    <h5>Telefonnummer: </h5>
-    <input type="text" name="phoneNumber" size="100" maxlength="300" />
-    </div>
+            <div class="formular">
+              <h5>Telefonnummer: </h5>
+              <input type="text" name="phoneNumber" size="100" maxlength="300" />
+            </div>
 
-    <div class="formular">
-    <h5>Bemerkungen: </h5>
-    <input type="text" name="comment" size="100" maxlength="1000" />
-    </div>
+            <div class="formular">
+              <h5>Bemerkungen: </h5>
+              <input type="text" name="comment" size="100" maxlength="1000" />
+            </div>
 
-    <div class="formular">
-    <input id="btn_submit" type="submit" value="Abschicken" />
-    </div>
-
-    </form>
-  </div>
-</div>
-
-  <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-    <div class="container">
-      <div class="container-left">
-        <h1> Fotographie-Kurs </h1>
-        <p>Mit unseren Fotographie-Kursen vermitteln wir Grundlagen und Grundwissen der Fotografie. Diese Kurse richten sich primär an Amateuren und Anfängern, doch für jeden ist etwas dabei. Die Kürse werden in 5er Gruppen vermittelt und dauern zwei mal 4 Stunden, zum Preis von 250.-. Wir bringen Ihnen unsere Fotografietechniken näher, erläutern unsere Kamerawahl, zeigen Ihnen die professionelle Welt und geben Ihnen einen Crashkurs im Thema Design, um Ihnen zu zeigen, wie Aufnhamen möglichst aussergewöhnlich und wunderschön sind. </p>
+            <div class="formular">
+              <input id="btn_submit" type="submit" value="Abschicken" />
+            </div>
+          </div>
+        </form>
       </div>
-      <div class="container-right">
-        <button id="btn_course" class="btn_bookus" type="button">Jetzt buchen!</button>
-        <a href="https://www.youtube.com/watch?v=hjY2_7QyrxE" target="_blank"><button class="btn_video" type="button">Zum Video!</button></a>
+
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
+        <div class="container">
+          <div class="container-left">
+            <h1> Coaching </h1>
+            <p>Bei unserem Coachingangebot werden Sie von einem unserer Top-Fotografen individuel betreut. Dieser Kurs ist perfekt für fortgeschrittene Fotografen, jeder kann jedoch profitieren. Er nimmt sich Ihren Interessen, Ihren bisherigen Arbeiten an, berät Sie und lehrt Ihnen die Technik unserer ausserdentlichen Fotografiekünsten. Wir gehen detailreich auf Ihre Projekte und Bilder ein, damit Sie möglichst viel von unserem Coaching mitnehmen können. Falls Sie sich angesprochen fühlen, drücken Sie auf "Jetzt Buchen". Vergessen Sie nicht, ihre Bilder und bisherigen Erfahrungen mitzuteilen.</p>
+          </div>
+          <div class="container-right">
+            <button id="btn_coaching" class="btn_bookus" type="button">Jetzt buchen!</button>
+            <a href="https://www.youtube.com/watch?v=7QWHKFcjP_0" target="_blank"><button class="btn_video" type="button">Zum Video!</button></a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <div id = "course" class="section_formular hidden">
-    <form action="formular_booking.php" method="post">
+      <div id = "coaching" class="section_formular hidden">
+        <form action="formular_booking.php" method="post">
 
-    <div class="border">
-    <button id="close" class="btn_close" type="button">X</button>
+          <div class="border">
+            <button id="close" class="btn_close" type="button">X</button>
+            <div class="formular">
+              <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
+            </div>
 
-    <div class="formular">
-    <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
-    </div>
+            <input class="hidden" name="type" type="coaching" value="coaching" />
 
-    <input class="hidden" name="type" type="course" value="course" />
+            <div class="formular">
+              <h5>Vorname: </h5>
+              <input type="text" name="surName" size="100" maxlength="300" />
+            </div>
 
-    <div class="formular">
-    <h5>Vorname: </h5>
-    <input type="text" name="surName" size="100" maxlength="300" />
-    </div>
+            <div class="formular">
+              <h5>Nachname: </h5>
+              <input type="text" name="lastName" size="100" maxlength="300" />
+            </div>
 
-    <div class="formular">
-    <h5>Nachname: </h5>
-    <input type="text" name="lastName" size="100" maxlength="300" />
-    </div>
+            <div class="formular">
+              <h5>e-Mail: </h5>
+              <input type="text" name="eMail" size="100" maxlength="300" />
+            </div>
 
-    <div class="formular">
-    <h5>e-Mail: </h5>
-    <input type="text" name="eMail" size="100" maxlength="300" />
-    </div>
+            <div class="formular">
+              <h5>Telefonnummer: </h5>
+              <input type="text" name="phoneNumber" size="100" maxlength="300" />
+            </div>
 
-    <div class="formular">
-    <h5>Telefonnummer: </h5>
-    <input type="text" name="phoneNumber" size="100" maxlength="300" />
-    </div>
+            <div class="formular">
+              <h5>Bemerkungen: </h5>
+              <input type="text" name="comment" size="100" maxlength="1000" />
+            </div>
 
-    <div class="formular">
-    <h5>Bemerkungen: </h5>
-    <input type="text" name="comment" size="100" maxlength="1000" />
-    </div>
+            <div class="formular">
+              <input id="btn_submit" type="submit" value="Abschicken" />
+            </div>
+          </div>
+        </form>
+      </div>
 
-    <div class="formular">
-    <input id="btn_submit" type="submit" value="Abschicken" />
-    </div>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
+        <div class="container">
+          <div class="container-left">
+            <h1> Fotographie-Kurs </h1>
+            <p>Mit unseren Fotographie-Kursen vermitteln wir Grundlagen und Grundwissen der Fotografie. Diese Kurse richten sich primär an Amateuren und Anfängern, doch für jeden ist etwas dabei. Die Kürse werden in 5er Gruppen vermittelt und dauern zwei mal 4 Stunden, zum Preis von 250.-. Wir bringen Ihnen unsere Fotografietechniken näher, erläutern unsere Kamerawahl, zeigen Ihnen die professionelle Welt und geben Ihnen einen Crashkurs im Thema Design, um Ihnen zu zeigen, wie Aufnhamen möglichst aussergewöhnlich und wunderschön sind. </p>
+          </div>
+          <div class="container-right">
+            <button id="btn_course" class="btn_bookus" type="button">Jetzt buchen!</button>
+            <a href="https://www.youtube.com/watch?v=hjY2_7QyrxE" target="_blank"><button class="btn_video" type="button">Zum Video!</button></a>
+          </div>
+        </div>
+      </div>
 
-    </form>
-  </div>
-</div>
+      <div id = "course" class="section_formular hidden">
+        <form action="formular_booking.php" method="post">
 
-  <footer class="contentinfo">
-    <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
-    <div><h3 class="rights">Copyright ©2020 | All rights reserved<h3></div>
-  </footer>
+          <div class="border">
+            <button id="close" class="btn_close" type="button">X</button>
+            <div class="formular">
+              <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
+            </div>
+
+            <input class="hidden" name="type" type="course" value="course" />
+
+            <div class="formular">
+              <h5>Vorname: </h5>
+              <input type="text" name="surName" size="100" maxlength="300" />
+            </div>
+
+            <div class="formular">
+              <h5>Nachname: </h5>
+              <input type="text" name="lastName" size="100" maxlength="300" />
+            </div>
+
+            <div class="formular">
+              <h5>e-Mail: </h5>
+              <input type="text" name="eMail" size="100" maxlength="300" />
+            </div>
+
+            <div class="formular">
+              <h5>Telefonnummer: </h5>
+              <input type="text" name="phoneNumber" size="100" maxlength="300" />
+            </div>
+
+            <div class="formular">
+              <h5>Bemerkungen: </h5>
+              <input type="text" name="comment" size="100" maxlength="1000" />
+            </div>
+
+            <div class="formular">
+              <input id="btn_submit" type="submit" value="Abschicken" />
+            </div>
+          </div>
+        </form>
+      </div>
+
+    <footer class="contentinfo">
+      <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
+      <div><h3 class="rights">Copyright ©2020 | All rights reserved<h3></div>
+    </footer>
 
   </body>
 
@@ -227,17 +225,22 @@
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous">
   </script>
+
   <script>
+    /* slide effect */
     AOS.init();
 
+    /* open navbar */
     function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     }
 
+    /* close navbar */
     function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     }
 
+    /* open and close formular */
     jQuery( "#btn_photoshooting" ).click(function() {
     jQuery("#photoshooting").removeClass("hidden");
     });
@@ -245,6 +248,7 @@
     jQuery("#photoshooting").addClass("hidden");
     });
 
+    /* open and close formular */
     jQuery( "#btn_coaching" ).click(function() {
     jQuery("#coaching").removeClass("hidden");
     });
@@ -252,6 +256,7 @@
     jQuery("#coaching").addClass("hidden");
     });
 
+    /* open and close formular */
     jQuery( "#btn_course" ).click(function() {
     jQuery("#course").removeClass("hidden");
     });
