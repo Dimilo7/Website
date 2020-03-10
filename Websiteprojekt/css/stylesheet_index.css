@@ -188,7 +188,8 @@ h3{
   color: #fff;
   text-decoration: none;
   letter-spacing: .1em;
-  margin-left: 45%;
+  display: block;
+  margin: 0% 45%;
 }
 
 .btn_outline:hover {

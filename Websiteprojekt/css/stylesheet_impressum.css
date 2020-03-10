@@ -14,7 +14,7 @@ body {
   font-family: century gothic;
   font-weight: 400;
   font-size: .96rem;
-  color: black;
+  color: #6c756d;
   text-align: justify;
   width: 100%;
 }
@@ -163,7 +163,8 @@ padding-top: 10px;
   color: #fff;
   text-decoration: none;
   letter-spacing: .1em;
-  margin-left: 45%;
+  display: block;
+  margin: 0% 45%;
 }
 
 .btn_outline:hover {
