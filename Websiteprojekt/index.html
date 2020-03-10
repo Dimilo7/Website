@@ -9,7 +9,9 @@
   </head>
 
   <body>
+
     <header>
+      <!--Navigationsbar-->
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Homepage</a>
@@ -22,6 +24,7 @@
       </div>
 
       <span class="nav-btn" onclick="openNav()">&#9776;</span>
+
     </header>
 
       <div class="picture">
@@ -34,42 +37,48 @@
           <h1>Unsere Philosophie</h1>
           <p> Die einzige Sprache, die jeder versteht, ist die der Fotografie. Wir möchten allen die Fotografie näherbringen. Wir sind zwei junge Menschen, die sich dies als Lebensziel gesetzt haben. Wir bieten deswegen Kurse rund um das Fotografieren an. Das unsere Kunden diese wunderschöne Sprache erlernen, liegt uns am Herzen! Wir sehen unsere Arbeit als Dienst an der Allgemeinheit. Die Schönheit dieser Welt aufzuzeigen, die Schlichtheit und die Komplexität unserer Erde, des Weltalls und der Mikrowelten, ist unsere Aufgabe. Es ist nicht nur ein «fresher Augenschmaus», wie die Jugend von heute sagen würde. Nein! Noch hat keine Fotografie dieser Welt Krieg, Hass oder Zerstörung hervorgerufen, sondern bringt Menschen zusammen, lässt sie staunen und ruft Glücksgefühl hervor. Wir sagen: «Die Erhaltung des Friedens liegt in unseren Händen und wir fördern sie mit jedem Bild ein Stückchen mehr!»
           </p>
-          </div>
         </div>
+      </div>
 
       <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
         <div class="container">
           <h1>Gründer</h1>
-          <div class="container-left Gründer">
-            <img src="images/Jarin.png" alt="Marco Schuppisser"></img>
-            <h2>Marco Schuppisser</h2>
-            <p><div class="CEO">Co-CEO:</div> Mit der Leitung über unsere angebotenen Kurse, als Ansprechperson für unsere Freelancer und als Zuständiger für junge Talente zählt Herr Schuppisser als Schnittstelle zwischen Firma und Aussenwelt.</p>
-
-          </div>
+            <div class="container-left Gründer">
+              <img src="images/Jarin.png" alt="Marco Schuppisser"></img>
+              <h2>Marco Schuppisser</h2>
+              <p>
+                <div class="CEO">Co-CEO:</div>
+                Mit der Leitung über unsere angebotenen Kurse, als Ansprechperson für unsere Freelancer und als Zuständiger für junge Talente zählt Herr Schuppisser als Schnittstelle zwischen Firma und Aussenwelt.
+              </p>
+            </div>
           <div class="container-right Gründer">
             <img src="images/Jarin.png" alt="Hendrik Wesselmann"></img>
             <h2>Hendrik Wesselmann</h2>
-            <p><div class="CEO">Co-CEO:</div> Mit der Übersicht in den Finanzen und der vollständigen Koordination in der Firma zählt Herr Wesselmann als Kopf des Unternehmens.</p>
-
+            <p>
+            <div class="CEO">Co-CEO:</div>
+            Mit der Übersicht in den Finanzen und der vollständigen Koordination in der Firma zählt Herr Wesselmann als Kopf des Unternehmens.
+            </p>
           </div>
+        </div>
       </div>
-    </div>
 
-    <footer class="contentinfo">
-      <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
-      <div><h3 class="rights">Copyright ©2020 | All rights reserved<h3></div>
-    </footer>
+      <footer class="contentinfo">
+        <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
+        <div><h3 class="rights">Copyright ©2020 | All rights reserved<h3></div>
+      </footer>
 
   </body>
-  <script>
-    AOS.init();
 
-    function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+  <script>
+    AOS.init(); /*slide effect*/
+
+    function openNav() { //open Navigationbar
+      document.getElementById("mySidenav").style.width = "250px";
     }
 
-    function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+
+    function closeNav() { //close Navigationbar
+      document.getElementById("mySidenav").style.width = "0";
     }
   </script>
 </html>

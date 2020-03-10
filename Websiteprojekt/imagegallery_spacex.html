@@ -1,8 +1,6 @@
 <DOCTYPE! html>
 <html lang="de">
   <head>
-  <title>caught.</title>
-  <main charset="utf-8">
     <main charset="utf-8">
     <link rel="stylesheet" href="css/stylesheet_imagegallery.css" type="text/css"/>
     <link rel="stylesheet" href="css/lightbox.min.css" type="text/css"/>
@@ -15,6 +13,7 @@
   <body>
 
     <header>
+      <!--Navigationsbar-->
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Homepage</a>
@@ -28,39 +27,40 @@
 
       <span class="nav-btn" onclick="openNav()">&#9776;</span>
       <h4 id="company-name"> <i><stark>caught.</stark></i> </h4>
+
     </header>
 
-    <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30">
-           <img src="images/gallery.png" alt="">
-           <button onclick="location.href='partners.html'" class="btn_goback" type="button">Zurück!</button>
-     </div>
-
-    <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30">
-      <div class="gallery">
-        <a href="images/spacex_1.jpg" data-lightbox="mygallery" data-title="Avignon"> <img class="image" src="images/spacex_1.jpg"> </a>
-        <a href="images/spacex_2.jpg" data-lightbox="mygallery" data-title="Bright Mountains"> <img class="image" src="images/spacex_2.jpg"> </a>
-        <a href="images/spacex_3.jpg" data-lightbox="mygallery" data-title="Pont du Gard"> <img class="image" src="images/spacex_3.jpg"> </a>
-        <a href="images/spacex_4.jpg" data-lightbox="mygallery" data-title="Sea View"> <img class="image" src="images/spacex_4.jpg"> </a>
-        <a href="images/spacex_5.jpg" data-lightbox="mygallery" data-title="Snowy Mountains"> <img class="image" src="images/spacex_5.jpg"> </a>
-        <a href="images/spacex_6.jpg" data-lightbox="mygallery" data-title="Camasee Tree"> <img class="image" src="images/spacex_6.jpg"> </a>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30">
+        <img src="images/gallery.png" alt="">
+        <button onclick="location.href='partners.html'" class="btn_goback" type="button">Zurück!</button>
       </div>
-    </div>
 
-    <footer class="contentinfo">
-      <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
-      <div><h3 class="rights">Copyright ©2020 | All rights reserved<h3></div>
-    </footer>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30">
+        <div class="gallery">
+          <a href="images/spacex_1.jpg" data-lightbox="mygallery" data-title="Avignon"> <img class="image" src="images/spacex_1.jpg"> </a>
+          <a href="images/spacex_2.jpg" data-lightbox="mygallery" data-title="Bright Mountains"> <img class="image" src="images/spacex_2.jpg"> </a>
+          <a href="images/spacex_3.jpg" data-lightbox="mygallery" data-title="Pont du Gard"> <img class="image" src="images/spacex_3.jpg"> </a>
+          <a href="images/spacex_4.jpg" data-lightbox="mygallery" data-title="Sea View"> <img class="image" src="images/spacex_4.jpg"> </a>
+          <a href="images/spacex_5.jpg" data-lightbox="mygallery" data-title="Snowy Mountains"> <img class="image" src="images/spacex_5.jpg"> </a>
+          <a href="images/spacex_6.jpg" data-lightbox="mygallery" data-title="Camasee Tree"> <img class="image" src="images/spacex_6.jpg"> </a>
+        </div>
+      </div>
+
+      <footer class="contentinfo">
+        <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
+        <div><h3 class="rights">Copyright ©2020 | All rights reserved<h3></div>
+      </footer>
 
   </body>
 
   <script>
-    AOS.init();
+    AOS.init(); /*slide effect*/
 
-    function openNav() {
+    function openNav() { //open Navigationbar
       document.getElementById("mySidenav").style.width = "250px";
     }
 
-    function closeNav() {
+    function closeNav() { //close Navigationbar
       document.getElementById("mySidenav").style.width = "0";
     }
   </script>

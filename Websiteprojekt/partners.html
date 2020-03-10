@@ -11,6 +11,7 @@
   <body>
 
     <header>
+      <!--Navigationbar-->
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Homepage</a>
@@ -24,11 +25,12 @@
 
       <span class="nav-btn" onclick="openNav()">&#9776;</span>
       <h4 id="company-name"> <i><stark>caught.</stark></i> </h4>
+
     </header>
 
-        <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30">
-               <img src="images/partners.png" alt="">
-          </div>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30">
+        <img src="images/partners.png" alt="">
+      </div>
 
           <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30">
            <p>
@@ -67,18 +69,21 @@
             <img class="container-right" src="images/spacex_logo.png alt="Logo von SpaceX" title="Zur Gallery""></img>
           </a>
       </div>
-    </div>
 
-    <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30">
-      <div class="container">
-        <div class="container-right">
-          <h1>
-            Volkswagen
-          </h1>
-          <p>
-            Volkswagen ist einer unserer treuesten Partner. Die Kombination aus unausprechlicher Ingenieurskraft und beste auf dem Markt erhältliche Qualität unserer Photographie ergänzt sich perfekt. Die Autos sind so fresh wie unere Bilder, ihre Motoren so leistungsstark wie unsere Geistesstärke.
-          </p>
-          <a href="http://www.volkswagen.de" target="_blank"><button class="btn_website" type="button">Zur Website!</button></a>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30">
+        <div class="container">
+          <div class="container-right">
+            <h1>
+              Volkswagen
+            </h1>
+            <p>
+              Volkswagen ist einer unserer treuesten Partner. Die Kombination aus unausprechlicher Ingenieurskraft und beste auf dem Markt erhältliche Qualität unserer Photographie ergänzt sich perfekt. Die Autos sind so fresh wie unere Bilder, ihre Motoren so leistungsstark wie unsere Geistesstärke.
+            </p>
+            <a href="http://www.volkswagen.de" target="_blank"><button class="btn_website" type="button">Zur Website!</button></a>
+          </div>
+            <a href = "imagegallery_volkswagen.html" target = "_self">
+            <img class="container-left" src="images/volkswagen_logo.jpg"></img>
+            </a>
         </div>
         <a href = "imagegallery_volkswagen.html" target = "_self">
           <img class="container-left" src="images/volkswagen_logo.jpg" alt="Logo von Volkswagen" title="Zur Gallery"></img>
@@ -103,21 +108,39 @@
     </div>
   </div>
 
-  <footer class="contentinfo">
-    <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
-    <div><h3 class="rights">Copyright ©2020 | All rights reserved<h3></div>
-  </footer>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30">
+        <div class="container">
+          <div class="container-left">
+            <h1>
+              Google
+            </h1>
+            <p>
+              Durch das gegenseitige Vertrauen war es uns möglich, unsere Kreative Energie völlig auszuleben und die bestmöglichsten Aufnahmen zu garantieren. Google liess und die nötige kreative Freiheit unseren Horizont zu erweitern. Unsere Leidenschaft spürt man in jedem Bild.
+            </p>
+            <a href="http://www.google.ch" target="_blank"><button class="btn_website" type="button">Zur Website!</button></a>
+          </div>
+            <a href = "imagegallery_google.html" target = "_self">
+            <img class="container-right" src="images/google_logo.jpg"></img>
+            </a>
+        </div>
+      </div>
+
+      <footer class="contentinfo">
+        <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
+        <div><h3 class="rights">Copyright ©2020 | All rights reserved<h3></div>
+      </footer>
 
   </body>
+
   <script>
-    AOS.init();
-    /* Set the width of the side navigation to 250px */
-    function openNav() {
+    AOS.init(); /*slide effect*/
+
+    function openNav() { //open Navigationbar
       document.getElementById("mySidenav").style.width = "250px";
     }
 
-    /* Set the width of the side navigation to 0 */
-    function closeNav() {
+
+    function closeNav() { //close Navigationbar
       document.getElementById("mySidenav").style.width = "0";
     }
   </script>
