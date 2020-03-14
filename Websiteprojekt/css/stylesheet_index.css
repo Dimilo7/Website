@@ -88,12 +88,9 @@ h3{
   color: white;
 }
 
-
 .dark-mode footer{
   background-color: black;
   color: white;
-  border-radius: 10px;
-  border: 50px;
 }
 
 /* The side navigation menu */
@@ -218,6 +215,7 @@ h3{
 .contentinfo{
   padding: 3em;
   background-color: #189ad3;
+  border: 5px;
 
 }
 

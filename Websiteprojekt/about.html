@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    
+
     <header role="banner">
 
       <div id="mySidenav" class="sidenav">
@@ -25,6 +25,9 @@
 
       <span class="nav-btn" onclick="openNav()">&#9776;</span>
       <h4 id="company-name"> <i><stark>caught.</stark></i></h4>
+
+      <button id="btn-dark-mode" onclick="myFunction()">Dark Mode</button>
+
 
     </header>
 
@@ -109,5 +112,10 @@
       document.getElementById("mySidenav").style.width = "0";
     }
 
+    function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    }
+    
   </script>
 </html>
