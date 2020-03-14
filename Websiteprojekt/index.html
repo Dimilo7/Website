@@ -32,6 +32,8 @@
 
       <span class="nav-btn" onclick="openNav()">&#9776;</span>
 
+      <button id="btn-dark-mode" onclick="myFunction()">Dark Mode</button>
+
     </header>
 
       <div class="picture">
@@ -97,6 +99,11 @@
 
     function closeNav() { //close Navigationbar
       document.getElementById("mySidenav").style.width = "0";
+    }
+
+    function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
     }
 
   </script>
