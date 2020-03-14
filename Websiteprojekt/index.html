@@ -1,9 +1,16 @@
+<!-- TODO: <!DOCTYPE html> -->
 <DOCTYPE! html>
 <html lang="de">
   <head>
+      <!-- TODO: Link tags don't need a closing tag and can be closed like this: <link ... /> -->
+      <!-- TODO: Also, stylesheet tags should include the type="text/css" attribute -->
     <link rel="stylesheet" href="css/stylesheet_index.css"></link>
     <title>caught.</title>
+  <!-- TODO: May I interest you in closing your own Tags? -->
+  <!-- TODO: Also... what is this tag good for? It wouldn't even do something if it was closed properly afaik. -->
     <main charset="utf-8">
+      <!-- TODO: Link tags don't need a closing tag and can be closed like this: <link ... /> -->
+      <!-- TODO: Also, stylesheet tags should include the type="text/css" attribute -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
@@ -44,16 +51,24 @@
         <div class="container">
           <h1>Gründer</h1>
             <div class="container-left Gründer">
+                <!-- TODO: Image tags should also be closed in the starting tag: <img ... /> -->
+                <!-- TODO: Use a better, slightly more serious picture -->
               <img src="images/Jarin.png" alt="Marco Schuppisser"></img>
               <h2>Marco Schuppisser</h2>
+                <!-- TODO: Paragraph tags must not contain block container tags such as divs. If you need to separate
+                   TODO: content in a paragraph, use <span></span> instead. -->
               <p>
                 <div class="CEO">Co-CEO:</div>
                 Mit der Leitung über unsere angebotenen Kurse, als Ansprechperson für unsere Freelancer und als Zuständiger für junge Talente zählt Herr Schuppisser als Schnittstelle zwischen Firma und Aussenwelt.
               </p>
             </div>
           <div class="container-right Gründer">
+              <!-- TODO: Image tags should also be closed in the starting tag: <img ... /> -->
+              <!-- TODO: Use a better, slightly more serious picture -->
             <img src="images/Jarin.png" alt="Hendrik Wesselmann"></img>
             <h2>Hendrik Wesselmann</h2>
+              <!-- TODO: Paragraph tags must not contain block container tags such as divs. If you need to separate
+                   TODO: content in a paragraph, use <span></span> instead. -->
             <p>
             <div class="CEO">Co-CEO:</div>
             Mit der Übersicht in den Finanzen und der vollständigen Koordination in der Firma zählt Herr Wesselmann als Kopf des Unternehmens.
@@ -63,7 +78,10 @@
       </div>
 
       <footer class="contentinfo">
+          <!-- TODO: Where does this link lead to? There is no element with the id "top" in this document. Are you
+               TODO: using JS for this? -->
         <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
+          <!-- TODO: At this point I don't even know why I even bother... -->
         <div><h3 class="rights">Copyright ©2020 | All rights reserved<h3></div>
       </footer>
 
