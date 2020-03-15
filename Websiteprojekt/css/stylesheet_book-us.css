@@ -23,7 +23,7 @@ footer{
   display: block;
 }
 
-p{
+p {
   margin: 0px;
 }
 
@@ -32,34 +32,34 @@ h1 {
   color: black;
 }
 
-h3{
+h3 {
   font-size: 20px;
   color: white;
 }
 
-h4{
+h4 {
   margin: 0em;
   font-family: century gothic;
 }
 
-h5{
+h5 {
   margin: 0em;
   font-size: 1em;
   color: #000;
 }
 
 /* ID's */
-#company-name{
+#company-name {
   color: white;
   font-size: 50px;
   text-align: center;
 }
 
-#title{
+#title {
   text-align: center;
 }
 
-#btn_submit{
+#btn_submit {
   border: 2px solid #fff;
   text-transform: uppercase;
   font-weight: bold;
@@ -73,7 +73,7 @@ h5{
   transition-duration: 0.4s;
 }
 
-#btn_submit:hover{
+#btn_submit:hover {
   color: #ff0000;
   background: #fff;
   border-color: #000;
@@ -164,7 +164,7 @@ h5{
 /* Buttons */
 
 /* Button to book */
-.btn_bookus{
+.btn_bookus {
   border: 2px solid #fff;
   text-transform: uppercase;
   font-size: 25px;
@@ -181,14 +181,14 @@ h5{
   transition-duration: 0.4s;
 }
 
-.btn_bookus:hover{
+.btn_bookus:hover {
   color: #ff0000;
   background: #fff;
   border-color: #000;
 }
 
 /* Button for the video */
-.btn_video{
+.btn_video {
   border: 2px solid #fff;
   text-transform: uppercase;
   font-size: 25px;
@@ -211,24 +211,24 @@ h5{
 }
 
 /* Formular */
-.section_formular{
+.section_formular {
   margin: -7em 16em 0em;
   line-height: 1.5;
   height: auto;
   overflow: hidden;
 }
 
-.formular{
+.formular {
   margin-bottom: 1em;
 }
 
-.border{
+.border {
   border: 2px solid #000;
   margin: 0% 20%;
   padding: 5% 5% 0% 5%;
 }
 
-.btn_close{
+.btn_close {
   margin: -8% -8% 0% 0%;
   border: 2px solid #000;
   font-weight: bold;
@@ -238,21 +238,21 @@ h5{
   float: right;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
 /* Footer */
-.contentinfo{
+.contentinfo {
   padding: 3em;
   background-color: #189ad3;
 }
 
-.rights{
+.rights {
   text-align: center;
 }
 
-.btn_top{
+.btn_top {
   border: 2px solid #fff;
   text-transform: uppercase;
   font-size: 18px;

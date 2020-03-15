@@ -19,7 +19,7 @@ body {
   width: 100%;
 }
 
-footer{
+footer {
   display: block;
 }
 
@@ -37,7 +37,7 @@ h1 {
   color: black;
 }
 
-h3{
+h3 {
   font-size: 20px;
   color: white;
 }
@@ -50,7 +50,7 @@ h4 {
 
 /* ID's*/
 
-#company-name{
+#company-name {
   color: white;
   font-size: 50px;
   text-align: center;
@@ -173,16 +173,16 @@ h4 {
 }
 
 /* Footer */
-.contentinfo{
+.contentinfo {
   padding: 3em;
   background-color: #189ad3;
 }
 
-.rights{
+.rights {
   text-align: center;
 }
 
-.btn_top{
+.btn_top {
   border: 2px solid #fff;
   text-transform: uppercase;
   font-size: 18px;
