@@ -1,7 +1,7 @@
 <?php
 
 try {
-  $user = 'caught_123admin';
+  $user = 'caught_123admin'; #unser benutzername und passwort, sollte nach eigennutzen angepasst werden
   $pass = '-q5BysB.Z5YtGDj';
   $inputArray = [ 'surName' => $_POST['surName'],
                   'lastName' => $_POST['lastName'],
