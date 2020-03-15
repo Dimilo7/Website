@@ -164,7 +164,8 @@ padding-top: 10px;
   text-decoration: none;
   letter-spacing: .1em;
   display: block;
-  margin: 0% 45%;
+  margin: 0% 44%;
+  text-align: center;
 }
 
 .btn_outline:hover {
