@@ -4,7 +4,7 @@
   <head>
       <!-- TODO: Link tags don't need a closing tag and can be closed like this: <link ... /> -->
       <!-- TODO: Also, stylesheet tags should include the type="text/css" attribute -->
-    <link id="theme" rel="stylesheet" href="css/stylesheet_index.css" type="text/css"/>
+    <link id="light" rel="stylesheet" href="css/stylesheet_index_light.css" type="text/css"/>
   <!-- TODO: May I interest you in closing your own Tags? -->
   <!-- TODO: Also... what is this tag good for? It wouldn't even do something if it was closed properly afaik. -->
   <!-- TODO: btn_top margin auf 44 % und text-align center -->
@@ -33,7 +33,14 @@
 
       <span class="nav-btn" onclick="openNav()">&#9776;</span>
 
-      <button id="btn-dark-mode" onclick="myFunction()">Dark Mode</button>
+      <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+        <em>Enable Dark Mode!</em>
+      </div>
+
 
     </header>
 
@@ -102,20 +109,22 @@
       document.getElementById("mySidenav").style.width = "0";
     }
 
-    function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
+
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
     }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+}
 
-  function swapStyleSheet(sheet){
-  document.getElementById('theme').setAttribute('href', sheet);
-  localStorage.setItem("sheet", sheet);
-  }
+toggleSwitch.addEventListener('change', switchTheme, false);
 
-  window.onload = _ =>
-  swapStyleSheet(
-  localStorage.getItem("sheet") || "default.css"
-  );
+
+
 
   </script>
 </html>
