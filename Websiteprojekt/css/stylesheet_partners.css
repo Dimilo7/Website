@@ -1,6 +1,6 @@
 /* Tags */
-
-:root {
+/*compare to stylesheet_index.css*/
+:root { /*light theme color scheme, which is selected by default*/
     --font-color: #6c756d;
     --bg-color: #fff;
     --h1-color: black;
@@ -14,7 +14,7 @@
     --btn-color: #189ad3;
 }
 
-[data-theme="dark"] {
+[data-theme="dark"] { /*dark theme color scheme, which is selected by default*/
   --font-color: #fff;
   --bg-color: #0f0f0f;
   --h1-color: #fff;
