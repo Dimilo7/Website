@@ -1,18 +1,18 @@
 /* Tags */
 
-:root {
+:root { /*light theme color scheme, which is selected by default*/
     --font-color: #6c756d;
-    --bg-color: #fff;
+    --bg-color: #fff; /*background color*/
     --h1-color: black;
     --h2-color: black;
     --h3-color: black;
     --h4-color: black;
     --h5-color: black;
     --h6-color: black;
-    --footer-color: #189ad3;
+    --footer-color: #189ad3; /*footer color*/
 }
 
-[data-theme="dark"] {
+[data-theme="dark"] { /*dark theme color scheme, which can be manually selected in the top right hand corner*/
   --font-color: #fff;
   --bg-color: #0f0f0f;
   --h1-color: #fff;
@@ -26,11 +26,11 @@
 
 
 header {
-  position: absolute;
-  top: 0px;
+  position: absolute; /*positiones an element relativly to the nearest object*/
+  top: 0px; /*sets the gap on the top of an elemnt to 0px, relatively to its nearest positioned object*/
   width: 100%;
-  z-index: 5;
-  height: 65px;
+  z-index: 5; /*defines how elements are stacked on top of each other, one with a higher z-index is always in front of an element with a lower one*/
+  height: 65px; /*height of the element*/
 }
 
 body {
