@@ -34,14 +34,14 @@ header {
 }
 
 body {
-  margin: 0%;
-  font-family: century gothic;
-  font-weight: 400;
-  font-size: .96rem;
-  color: var(--font-color);
-  background-color: var(--bg-color);
-  text-align: justify;
-  width: 100%;
+  margin: 0%; /* to remove white border*/
+  font-family: century gothic; /*font*/
+  font-weight: 400; /*defines how bold the text is*/
+  font-size: .96rem; /* size of text*/
+  color: var(--font-color); /* color, which changes when you toggle dark-mode*/
+  background-color: var(--bg-color);   /* background-color, which changes when you toggle dark-mode*/
+  text-align: justify;  /* alignment of the text*/
+  width: 100%;  /* width */
 }
 
 footer {
@@ -49,33 +49,41 @@ footer {
 }
 
 a {
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  color: white;
-  font-size: 1.25rem;
+  text-transform: uppercase; /* capital letters  */
+  letter-spacing: .2em; /* space between letters */
+  color: white; /* color */
+  font-size: 1.25rem; /* size */
   text-decoration: none;
 }
 
 h1 {
-  font-size: 50px;
-  color: var(--h1-color);
+  font-size: 50px; /* size */
+  color: var(--h1-color); /* changing color */
 }
 
 h3 {
-  font-size: 20px;
-  color: var(--h3-color);
+  font-size: 20px; /* size */
+  color: var(--h3-color); /* changing color */
+}
+
+h4 {
+  color: var(--h4-color);
+  font-weight: bold;
 }
 
 /* ID's */
 
-#company-name {
-  color: white;
-  font-size: 50px;
-  text-align: center;
+#company-name { /* name of the company */
+  color: white; /* color */
+  font-size: 50px; /* size */
+  text-align: center; /* alignment */
 }
 
-.theme-switch-wrapper {
-  float: right;
+/* Classes */
+
+/* Toggle Dark-Mode*/
+.theme-switch-wrapper { /* slider for toggle dark-mode */
+  float: right; /* alignment right */
   margin: 1%;
 
   em {
@@ -83,18 +91,18 @@ h3 {
     font-size: 1rem;
   }
 }
-.theme-switch {
+.theme-switch { /* slider for toggle dark-mode */
   display: inline-block;
   height: 34px;
   position: relative;
   width: 60px;
 }
 
-.theme-switch input {
+.theme-switch input { /* slider for toggle dark-mode */
   display:none;
 }
 
-.slider {
+.slider { /* slider for toggle dark-mode */
   background-color: #ccc;
   bottom: 0;
   cursor: pointer;
@@ -105,7 +113,7 @@ h3 {
   transition: .4s;
 }
 
-.slider:before {
+.slider:before { /* slider for toggle dark-mode */
   background-color: #fff;
   bottom: 4px;
   content: "";
@@ -116,37 +124,34 @@ h3 {
   width: 26px;
 }
 
-input:checked + .slider {
+input:checked + .slider { /* slider for toggle dark-mode */
   background-color: #66bb6a;
 }
 
-input:checked + .slider:before {
+input:checked + .slider:before { /* slider for toggle dark-mode */
   transform: translateX(26px);
 }
 
-.slider.round {
+.slider.round { /* slider for toggle dark-mode */
   border-radius: 34px;
 }
 
-.slider.round:before {
+.slider.round:before { /* slider for toggle dark-mode */
   border-radius: 50%;
 }
-
-/* Classes */
-
 
 /* The side navigation menu */
 .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 1; /* setting order */
   top: 0;
   left: 0;
   background-color: #111;
-  overflow-x: hidden;
-  padding-top: 60px;
-  transition: 0.5s;
+  overflow-x: hidden; /* to hide scrollbar */
+  padding-top: 60px; /*  */
+  transition: 0.5s; /* transition needs 0.5 sec */
 }
 
 .navigation-wrapper {
@@ -177,7 +182,7 @@ input:checked + .slider:before {
 }
 
 .no-wrap {
-  white-space: nowrap;
+  white-space: nowrap; /* to prevent ugly opening */
 }
 
 .nav-btn {
@@ -219,6 +224,7 @@ input:checked + .slider:before {
 }
 
 /* Layout */
+
 .section {
   margin: 7em 16em;
   line-height: 1.5;
@@ -248,10 +254,6 @@ input:checked + .slider:before {
   padding: 15px 0;
 }
 
-h4 {
-  color: var(--h4-color);
-  font-weight: bold;
-}
 
 /* footer */
 .contentinfo {
@@ -262,11 +264,12 @@ h4 {
   border-color: #fff;
 
 }
-
+ /* all rights are reserved */
 .rights {
   text-align: center;
 }
 
+/* button to reach top*/
 .btn_top {
   border: 2px solid #fff;
   text-transform: uppercase;
@@ -282,6 +285,7 @@ h4 {
   text-align: center;
 }
 
+/* changing look when you go over the button*/
 .btn_outline:hover {
   color: #000;
   background: #fff;
