@@ -1,6 +1,8 @@
 /* Tags */
 
-:root {
+/* compare comments with stylesheet index.css*/
+
+:root { /*light theme color scheme, which is selected by default*/
     --font-color: #6c756d;
     --bg-color: #fff;
     --h1-color: black;
@@ -14,7 +16,7 @@
     --btn-color: #189ad3;
 }
 
-[data-theme="dark"] {
+[data-theme="dark"] { /*dark theme color scheme, which can be manually selected in the top right hand corner*/
   --font-color: #fff;
   --bg-color: #0f0f0f;
   --h1-color: #fff;
@@ -80,7 +82,7 @@ h5 {
   text-align: center;
 }
 
-#btn_submit {
+#btn_submit { /* button to send your informations*/
   border: 2px solid #fff;
   text-transform: uppercase;
   font-weight: bold;
@@ -91,7 +93,7 @@ h5 {
   margin: 3% 40%;
 }
 
-#application {
+#application { /* title "apply"*/
   width: 100%;
   height: auto;
 }
@@ -238,7 +240,7 @@ input:checked + .slider:before {
   width: 45%;
 }
 
-/* Buttons*/
+/* Button apply*/
 .btn {
   border: 2px solid #000;
   text-transform: uppercase;
@@ -248,7 +250,7 @@ input:checked + .slider:before {
   padding: 10px 20px;
 }
 
-.btn_apply {
+.btn_apply { /*button apply*/
   border: 2px solid #fff;
   text-transform: uppercase;
   font-size: 25px;
@@ -265,14 +267,14 @@ input:checked + .slider:before {
   transition-duration: 0.4s;
 }
 
-.btn_apply:hover {
+.btn_apply:hover { /* effect when you scroll over button*/
   color: #ff0000;
   background: #fff;
   border-color: #000;
 }
 
 /* formular */
-.section_application_form {
+.section_application_form { /*hidden class which includes formular*/
   margin: 9em 16em 9em;
   line-height: 1.5;
   height: auto;
@@ -283,13 +285,13 @@ input:checked + .slider:before {
   margin-bottom: 1em;
 }
 
-.border {
+.border { /* border around hidden class */
   border: 2px solid #000;
   margin: 0% 20%;
   padding: 5% 5% 0% 5%;
 }
 
-.close-btn {
+.close-btn { /*button to close hidden button*/
   margin: -8% -8% 0% 0%;
   border: 2px solid #000;
   font-weight: bold;
@@ -299,7 +301,7 @@ input:checked + .slider:before {
   float: right;
 }
 
-.hidden {
+.hidden { /* hidden class*/
   display: none;
 }
 

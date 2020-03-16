@@ -1,6 +1,8 @@
 /* Tags */
 
-:root {
+/* compare comments with stylesheet index.css*/
+
+:root {  /*light theme color scheme, which is selected by default*/
     --font-color: #6c756d;
     --bg-color: #fff;
     --h1-color: black;
@@ -15,7 +17,7 @@
     --border-color: #000;
 }
 
-[data-theme="dark"] {
+[data-theme="dark"] { /*dark theme color scheme, which can be manually selected in the top right hand corner*/
   --font-color: #fff;
   --bg-color: #0f0f0f;
   --h1-color: #fff;
@@ -87,11 +89,11 @@ color: var(--h5-color);
   text-align: center;
 }
 
-#title {
+#title { /* title */
   text-align: center;
 }
 
-#btn_submit {
+#btn_submit { /* button to send us your informations */
   border: 2px solid #fff;
   text-transform: uppercase;
   font-weight: bold;
@@ -105,7 +107,7 @@ color: var(--h5-color);
   transition-duration: 0.4s;
 }
 
-#btn_submit:hover {
+#btn_submit:hover { /* effect when you scroll over button*/
   color: #ff0000;
   background: #fff;
   border-color: #000;
@@ -272,7 +274,7 @@ input:checked + .slider:before {
   transition-duration: 0.4s;
 }
 
-.btn_bookus:hover {
+.btn_bookus:hover { /* effect when you scroll over button*/
   color: #ff0000;
   background: #fff;
   border-color: #000;
@@ -295,32 +297,32 @@ input:checked + .slider:before {
   cursor: pointer;
 }
 
-.btn_video:hover {
+.btn_video:hover { /* effect when you scroll over button */
   color: #ff0000;
   background: #fff;
   border-color: #000;
 }
 
 /* Formular */
-.section_formular {
+.section_formular { /* section for hidden class with formular*/
   margin: -7em 16em 0em;
   line-height: 1.5;
   height: auto;
   overflow: hidden;
 }
 
-.formular {
+.formular { /* formular */
   margin-bottom: 1em;
 }
 
-.border {
+.border { /* border around formular */
   border: 2px solid;
   border-color: var(--border-color);
   margin: 0% 20%;
   padding: 5% 5% 0% 5%;
 }
 
-.btn_close {
+.btn_close { /* button to close hidden class with formular*/
   margin: -8% -8% 0% 0%;
   border: 2px solid #000;
   font-weight: bold;
@@ -330,7 +332,7 @@ input:checked + .slider:before {
   float: right;
 }
 
-.hidden {
+.hidden { /* hidden class*/
   display: none;
 }
 

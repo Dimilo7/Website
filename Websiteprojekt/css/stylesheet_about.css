@@ -1,6 +1,8 @@
 /* Tags */
 
-:root {
+/* compare comments with stylesheet index.css*/
+
+:root { /*light theme color scheme, which is selected by default*/
     --font-color: #6c756d;
     --bg-color: #fff;
     --h1-color: black;
@@ -13,7 +15,7 @@
     --header-color: #189ad3;
 }
 
-[data-theme="dark"] {
+[data-theme="dark"] { /*dark theme color scheme, which can be manually selected in the top right hand corner*/
   --font-color: #fff;
   --bg-color: #0f0f0f;
   --h1-color: #fff;
@@ -82,7 +84,7 @@ h4 {
   text-align: center;
 }
 
-#young_marco {
+#young_marco { /* picture of boy with camera */
   width: 100%;
   height: auto;
 }
@@ -231,7 +233,6 @@ input:checked + .slider:before {
 }
 
 /* footer */
-
 .contentinfo {
   padding: 3em;
   background-color: var(--footer-color);
