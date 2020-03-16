@@ -11,9 +11,9 @@
 
   <body>
 
-    <header role="banner">
+    <header role="banner"> <!--header with navigationbar and blue banner with title-->
 
-      <div id="mySidenav" class="sidenav">
+      <div id="mySidenav" class="sidenav"> <!--Navigationbar, connecting all pages-->
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Homepage</a>
         <a class="no-wrap" href="about.html">About us</a>
@@ -25,9 +25,9 @@
       </div>
 
       <span class="nav-btn" onclick="openNav()">&#9776;</span>
-      <h4 id="company-name"> <i><stark>caught.</stark></i></h4>
+      <h4 id="company-name"> <i><stark>caught.</stark></i></h4> <!--caught. title-->
 
-      <div class="theme-switch-wrapper">
+      <div class="theme-switch-wrapper"> <!--Dark-Mode button-->
         <label class="theme-switch" for="checkbox">
           <input type="checkbox" id="checkbox" />
           <div class="slider round"></div>
@@ -37,19 +37,19 @@
 
     </header>
 
-      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30">
-          <img src="images/about_us.png" alt="About us"/>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30"> <!--Container in the website, defining the margin to the left and right side-->
+          <img src="images/about_us.png" alt="About us"/> <!--cover picture-->
       </div>
 
       <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-        <div class="container">
-          <div class="container-left">
+        <div class="container"> <!--container containing both, the text and the image af follows-->
+          <div class="container-left"> <!--container on the left side of the screen with text-->
             <h1>Unsere Geschichte</h1>
             <p>
               Schon als kleine Kinder entwickelten wir grosses Interesse für jegliche Kunst. Gefesselt hat uns aber das eigene Fotografieren mit der damaligen Kameraaustrüstung von Marco's Vater. Mit 14 Jahren erforschten wir dann das erste Mal die Bearbeitung von Bildern mit Hilfe von Softwareprogrammen, wie Photoshop und adobe illustrator. Ab dort begannen wir Aufträge von Freunden und Bekannten anzunehmen, um zum Beispiel Hochzeitsfotos oder Reisebilder aufzunehmen oder zu bearbeiten. Schon während unseres Bachelor of Arts an der Universität Berlin war uns bewusst, dass wir später unsere eigenes Unternehmen gründen werden und unseren Traum zu verwirklichen.
             </p>
           </div>
-          <div class="container-right"> <img id="young_marco" src="images/young_marco.jpg" alt="Junge mit Polaroid"></img></div>
+          <div class="container-right"> <img id="young_marco" src="images/young_marco.jpg" alt="Junge mit Polaroid"></img></div> <!--container on the right side of the screen with a picture-->
         </div>
       </div>
 
@@ -88,7 +88,7 @@
 
       <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
         <div class="container">
-          <div class="container-left">
+          <div class="container-left"> <!--container left side with google maps-->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.542604323966!2d8.72150021549298!3d47.49882320341047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a9977040df387%3A0x370e62087f6acf2a!2sSulzer%20high-rise!5e0!3m2!1sde!2sch!4v1583844896080!5m2!1sde!2sch" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </div>
           <div class="container-right">
@@ -100,7 +100,7 @@
         </div>
       </div>
 
-    <footer class="contentinfo">
+    <footer class="contentinfo"> <!--footer with blue banner, with button directing you to the top of the website-->
       <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
       <div><h3 class="rights">Copyright ©2020 | All rights reserved</h3></div>
     </footer>
@@ -124,7 +124,7 @@
 
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
-    function switchTheme(e) {
+    function switchTheme(e) { //switch to dark-theme
       if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
       }

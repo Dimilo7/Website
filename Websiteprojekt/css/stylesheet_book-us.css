@@ -337,7 +337,7 @@ input:checked + .slider:before {
 /* Footer */
 .contentinfo {
   padding: 3em;
-  color: var(--footer-color);
+  background-color: var(--footer-color);
 }
 
 .rights {

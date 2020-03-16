@@ -3,7 +3,6 @@
 <html lang="de">
   <head>
     <main charset="utf-8">
-    <title>caught.</title>
     <link rel="stylesheet" href="css/stylesheet_apply.css" type="text/css"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" type="text/css"/>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" type="text/javascript"></script>
@@ -12,9 +11,9 @@
 
   <body>
 
-    <header role="banner">
+    <header role="banner"> <!--header with navigationbar and blue banner with title-->
 
-      <div id="mySidenav" class="sidenav">
+      <div id="mySidenav" class="sidenav"> <!--Navigationbar, connecting all pages-->
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Homepage</a>
         <a class="no-wrap" href="about.html">About us</a>
@@ -26,9 +25,9 @@
       </div>
 
       <span class="nav-btn" onclick="openNav()">&#9776;</span>
-      <h4 id="company-name"> <i><stark>caught.</stark></i> </h4>
+      <h4 id="company-name"> <i><stark>caught.</stark></i> </h4> <!--caught. title-->
 
-      <div class="theme-switch-wrapper">
+      <div class="theme-switch-wrapper"> <!--Dark-Mode buttonp-->
         <label class="theme-switch" for="checkbox">
           <input type="checkbox" id="checkbox" />
           <div class="slider round"></div>
@@ -38,33 +37,33 @@
 
     </header>
 
-      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-        <img id="title" src="images/apply.png" alt="Apply"/>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">   <!--Container in the website, defining the margin to the left and right side-->
+        <img id="title" src="images/apply.png" alt="Apply"/> <!--cover picture-->
       </div>
 
       <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-        <div class="container">
-          <div class="container-left">
+        <div class="container"> <!--container containing both, the text and the image af follows-->
+          <div class="container-left"> <!--container on the left side of the screen with text-->
             <h1> Bewerben </h1>
             <p>
             Sind Sie ein fresher, junger, künstlerischer, leidenschaftlicher Fotograph, haben ein Auge fürs Schöne und ein Fabel für Design und Fotografie? Dann bewerben sie sich jetzt als Freelancer bei caught.. Wir bieten ein produktives und ideenreiches Umfeld an, in dem Sie sich künstlerisch austoben können. Sie werden in der Welt als professioneller Fotograph herumreisen und für die einflussreichsten Konzerne unserer Zeit Aufträge ausführen. Selbstständigkeit ist einer unserer wichstigsten Werte. Für diese Aufgaben ist man mit einer sozialen, offenen und kommunikativen Persönlichkeit bestens ausgerüstet, die mit jeder Situation klar kommen muss. Sie sollten kompetitiv, leistungsstark und immer auf der Suche nach der nächsten Herausforderung sein. Finden Sie sich selbst in dem Text wieder und sind bereit, jedes Motiv zu fotografieren, dann bewerben Sie sich jetzt! Drücken Sie dafür auf denn unten dargestellten Knopf.
             </p>
           </div>
-          <div class="container-right">
+          <div class="container-right"> <!--container on the right side of the screen with picture-->
             <img id="application" src="images/bewerbungen.png" alt="Our company"/>
           </div>
         </div>
       </div>
 
       <div class="section">
-        <button id="apply" class="btn_apply" type="button">Hier bewerben!</button>
+        <button id="apply" class="btn_apply" type="button">Hier bewerben!</button> <!--button to open application form-->
       </div>
 
-      <div id = "application_form" class="section_application_form hidden">
-        <form action="formular_apply.php" method="post">
+      <div id = "application_form" class="section_application_form hidden"> <!--container with the application form-->
+        <form action="formular_apply.php" method="post"> <!--calling formular_apply.php with the post method-->
 
           <div class="border">
-            <button id="close" class="close-btn" type="button">X</button>
+            <button id="close" class="close-btn" type="button">X</button> <!--button to close form-->
 
             <div class="formular">
               <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
@@ -72,49 +71,48 @@
 
             <div class="formular">
               <h5>Vorname: </h5>
-              <input type="text" name="surName" size="100" maxlength="300" />
+              <input type="text" name="surName" size="100" maxlength="300" /> <!--input for the surName, which will be inserted into the DB-->
             </div>
 
             <div class="formular">
               <h5>Nachname: </h5>
-              <input type="text" name="lastName" size="100" maxlength="300" />
+              <input type="text" name="lastName" size="100" maxlength="300" /> <!--input for the lastName, which will be inserted into the DB-->
             </div>
 
             <div class="formular">
               <h5>e-Mail: </h5>
-              <input type="text" name="eMail" size="100" maxlength="300" />
+              <input type="text" name="eMail" size="100" maxlength="300" /> <!--input for the EMail, which will be inserted into the DB-->
             </div>
 
             <div class="formular">
               <h5>Telefonnummer: </h5>
-              <input type="text" name="phoneNumber" size="100" maxlength="300" />
-            </div>
+              <input type="text" name="phoneNumber" size="100" maxlength="300" /> <!--input for the phonenumber, which will be inserted into the DB-->
 
             <div class="formular">
               <h5>Motivationsschreiben: </h5>
               <label> Das Motivationsschreiben soll mindestens eine A4 Seite umfassen und im Anhang einen Lebenslauf beinhalten <br/>
-              <input name="datei" type="file" size="50" accept="text/*"></label>
+              <input name="datei" type="file" size="50" accept="text/*"></label> <!--input for a letter of motivation, (which will be inserted into the DB)-->
             </div>
 
             <div class="formular">
               <h5>Bilder anhängen: </h5>
               <label> Bitte laden Sie uns drei von Ihnen aufgenommenen Bilder hoch!
-              <input name="datei" type="file" size="50" accept="text/*"></label>
+              <input name="datei" type="file" size="50" accept="text/*"></label> <!--input for pictures,(which will be inserted into the DB)-->
             </div>
 
             <div class="formular">
               <h5>Bemerkungen: </h5>
-              <input type="text" name="comment" size="100" maxlength="1000" />
+              <input type="text" name="comment" size="100" maxlength="1000" /> <!--input for comments, which will be inserted into the DB-->
             </div>
 
             <div class="formular">
-              <input id="btn_submit" type="submit" value="Abschicken" />
+              <input id="btn_submit" type="submit" value="Abschicken" /> <!--button to submit the values and send them to the db-->
             </div>
           </div>
         </form>
       </div>
 
-      <footer class="contentinfo">
+      <footer class="contentinfo"> <!--footer with blue banner, with button directing you to the top of the website-->
         <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
         <h3 class="rights">Copyright ©2020 | All rights reserved</h3>
       </footer>
@@ -152,7 +150,7 @@
 
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
-    function switchTheme(e) {
+    function switchTheme(e) { //switch to dark-theme
       if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
       }

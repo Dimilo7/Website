@@ -11,10 +11,9 @@
 
   <body>
 
-    <header role="banner">
+    <header role="banner"> <!--header with navigationbar and blue banner with title-->
 
-      <!-- navigationbar -->
-      <div id="mySidenav" class="sidenav">
+      <div id="mySidenav" class="sidenav"> <!--Navigationbar, connecting all pages-->
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Homepage</a>
         <a class="no-wrap" href="about.html">About us</a>
@@ -26,9 +25,9 @@
       </div>
 
       <span class="nav-btn" onclick="openNav()">&#9776;</span>
-      <h4 id="company-name"> <i><stark>caught.</stark></i> </h4>
+      <h4 id="company-name"> <i><stark>caught.</stark></i> </h4> <!--caught. title-->
 
-      <div class="theme-switch-wrapper">
+      <div class="theme-switch-wrapper"> <!--Dark-Mode button-->
         <label class="theme-switch" for="checkbox">
           <input type="checkbox" id="checkbox" />
           <div class="slider round"></div>
@@ -39,17 +38,17 @@
 
     </header>
 
-      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-        <img id="title" src="images/book us.png" alt="Book us"/>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0"><!--Container in the website, defining the margin to the left and right side-->
+        <img id="title" src="images/book us.png" alt="Book us"/> <!--cover picture-->
       </div>
 
       <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
         <p>Sind Sie auf der Suche nach einem unvorstellbaren Photoshooting, oder wollen Sie Ihre Photografiekünste vollumfänglich verbessern, entweder mit einem persönlichen Coaching mit einem unserer Star-Fotographen, oder mit einem Gruppenkurs der Ihnen die Techniken und Tricks der professionellen Fotografie näherbringt? </p>
       </div>
 
-      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-        <div class="container">
-          <div class="container-left">
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0"> <!--section of the page with the photoshooting-->
+        <div class="container"> <!--container containing both, the text and the image af follows-->
+          <div class="container-left"> <!--container on the left side of the screen with text-->
             <h1> Photoshooting </h1>
             <p>
               Hier finden Sie alles was das Herz begehrt. Jedes Fotoshooting wird in unserem perfekt eingerichteten Fotostudio geschossen. Wir bearbeiten die Bilder auch auf Wunsch! Unser Angebot umschliesst:
@@ -62,57 +61,58 @@
                 Klicken Sie auf "Jetzt Buchen" falls Sie Interesse haben und lassen Sie uns wissen, für welches Angebot Sie sich anmelden.
             </p>
           </div>
-          <div class="container-right">
-            <button id="btn_photoshooting" class="btn_bookus" type="button">Jetzt buchen!</button>
-            <a href="https://www.youtube.com/watch?v=yTJ8xsqQxzs" target="_blank"><button class="btn_video" type="button">Zum Video!</button></a>
+          <div class="container-right"><!--container on the right side of the screen with two buttons, "jetzt buchen" and "zum video"-->
+            <button id="btn_photoshooting" class="btn_bookus" type="button">Jetzt buchen!</button> <!--Button to book a photoshooting, opens form-->
+            <a href="https://www.youtube.com/watch?v=yTJ8xsqQxzs" target="_blank"><button class="btn_video" type="button">Zum Video!</button></a> <!--button to open a video explanation-->
           </div>
         </div>
       </div>
 
-      <div id = "photoshooting" class="section_formular hidden">
-        <form action="formular_booking.php" method="post">
+      <div id = "photoshooting" class="section_formular hidden"> <!--container with the photoshooting form-->
+        <form action="formular_booking.php" method="post"> <!--calling formular_booking.php with the post method-->
 
           <div class="border">
-            <button id="close" class="btn_close" type="button">X</button>
+            <button id="close" class="btn_close" type="button">X</button> <!--button to close form-->
             <div class="formular">
               <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
             </div>
 
-            <input class="hidden" name="type" type="photoshooting" value="photoshooting" />
+            <input class="hidden" name="type" type="photoshooting" value="photoshooting" /> <!--this gives the type = "photoshooting" to the php file, which is needed for the switch statement, choosing which table to insert the data into-->
 
             <div class="formular">
               <h5>Vorname: </h5>
-              <input type="text" name="surName" size="100" maxlength="300" />
+              <input type="text" name="surName" size="100" maxlength="300" /> <!--input for the surName, which will be inserted into the DB-->
+            </div>
             </div>
 
             <div class="formular">
               <h5>Nachname: </h5>
-              <input type="text" name="lastName" size="100" maxlength="300" />
+              <input type="text" name="lastName" size="100" maxlength="300" /> <!--input for the lastName, which will be inserted into the DB-->
             </div>
 
             <div class="formular">
               <h5>e-Mail: </h5>
-              <input type="text" name="eMail" size="100" maxlength="300" />
+              <input type="text" name="eMail" size="100" maxlength="300" /> <!--input for the EMail, which will be inserted into the DB-->
             </div>
 
             <div class="formular">
               <h5>Telefonnummer: </h5>
-              <input type="text" name="phoneNumber" size="100" maxlength="300" />
+              <input type="text" name="phoneNumber" size="100" maxlength="300" /> <!--input for the phonenumber, which will be inserted into the DB-->
             </div>
 
             <div class="formular">
               <h5>Bemerkungen: </h5>
-              <input type="text" name="comment" size="100" maxlength="1000" />
+              <input type="text" name="comment" size="100" maxlength="1000" /> <!--input for comments, which will be inserted into the DB-->
             </div>
 
             <div class="formular">
-              <input id="btn_submit" type="submit" value="Abschicken" />
+              <input id="btn_submit" type="submit" value="Abschicken" /> <!--button to submit the values and send them to the db-->
             </div>
           </div>
         </form>
       </div>
 
-      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0"> <!--section of the page with coaching-->
         <div class="container">
           <div class="container-left">
             <h1> Coaching </h1>
@@ -121,14 +121,14 @@
             </p>
           </div>
           <div class="container-right">
-            <button id="btn_coaching" class="btn_bookus" type="button">Jetzt buchen!</button>
-            <a href="https://www.youtube.com/watch?v=7QWHKFcjP_0" target="_blank"><button class="btn_video" type="button">Zum Video!</button></a>
+            <button id="btn_coaching" class="btn_bookus" type="button">Jetzt buchen!</button> <!--Button to book a coaching, opens form-->
+            <a href="https://www.youtube.com/watch?v=7QWHKFcjP_0" target="_blank"><button class="btn_video" type="button">Zum Video!</button></a> <!--button to open a video explanation-->
           </div>
         </div>
       </div>
 
-      <div id = "coaching" class="section_formular hidden">
-        <form action="formular_booking.php" method="post">
+      <div id = "coaching" class="section_formular hidden"> <!--container with the coaching form-->
+        <form action="formular_booking.php" method="post"> <!--calling formular_booking.php with the post method-->
 
           <div class="border">
             <button id="close" class="btn_close" type="button">X</button>
@@ -136,7 +136,7 @@
               <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
             </div>
 
-            <input class="hidden" name="type" type="coaching" value="coaching" />
+            <input class="hidden" name="type" type="coaching" value="coaching" />  <!--this gives the type = "coaching" to the php file, which is needed for the switch statement, choosing which table to insert the data into-->
 
             <div class="formular">
               <h5>Vorname: </h5>
@@ -185,8 +185,8 @@
         </div>
       </div>
 
-      <div id = "course" class="section_formular hidden">
-        <form action="formular_booking.php" method="post">
+      <div id = "course" class="section_formular hidden"> <!--container with the course form-->
+        <form action="formular_booking.php" method="post"> <!--calling formular_booking.php with the post method-->
 
           <div class="border">
             <button id="close" class="btn_close" type="button">X</button>
@@ -194,7 +194,7 @@
               <h5> Bitte geben Sie ihre Daten an und wir werden Sie bezüglich ihrer Anfrage kontaktieren!</h5>
             </div>
 
-            <input class="hidden" name="type" type="course" value="course" />
+            <input class="hidden" name="type" type="course" value="course" /> <!--this gives the type = "coaching" to the php file, which is needed for the switch statement, choosing which table to insert the data into-->
 
             <div class="formular">
               <h5>Vorname: </h5>
@@ -281,7 +281,7 @@
 
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
-    function switchTheme(e) {
+    function switchTheme(e) { //switch to dark-theme
       if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
       }
