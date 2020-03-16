@@ -24,10 +24,11 @@
         <a href="impressum.html">Impressum</a>
       </div>
 
-      <span class="nav-btn" onclick="openNav()">&#9776;</span>
+      <span class="nav-btn" onclick="openNav()">&#9776;</span> <!-- Symbole to open navigationbar-->
       <h4 id="company-name"> <i><stark>caught.</stark></i></h4> <!--caught. title-->
 
-      <div class="theme-switch-wrapper"> <!--Dark-Mode button-->
+      <!--Dark-Mode Slider-->
+      <div class="theme-switch-wrapper">
         <label class="theme-switch" for="checkbox">
           <input type="checkbox" id="checkbox" />
           <div class="slider round"></div>
@@ -37,13 +38,14 @@
 
     </header>
 
-      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30"> <!--Container in the website, defining the margin to the left and right side-->
-          <img src="images/about_us.png" alt="About us"/> <!--cover picture-->
+
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30"> <!-- Setting section to layout the website -->
+          <img src="images/about_us.png" alt="About us"/> <!-- picture of the title "about us"-->
       </div>
 
-      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-        <div class="container"> <!--container containing both, the text and the image af follows-->
-          <div class="container-left"> <!--container on the left side of the screen with text-->
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0"> <!-- Setting section to layout the website -->
+        <div class="container"> <!-- Setting a container of the website, defining the margin to the left and right side-->
+          <div class="container-left"> <!-- layouting in two containers, container on the left side of the screen with text-->
             <h1>Unsere Geschichte</h1>
             <p>
               Schon als kleine Kinder entwickelten wir grosses Interesse für jegliche Kunst. Gefesselt hat uns aber das eigene Fotografieren mit der damaligen Kameraaustrüstung von Marco's Vater. Mit 14 Jahren erforschten wir dann das erste Mal die Bearbeitung von Bildern mit Hilfe von Softwareprogrammen, wie Photoshop und adobe illustrator. Ab dort begannen wir Aufträge von Freunden und Bekannten anzunehmen, um zum Beispiel Hochzeitsfotos oder Reisebilder aufzunehmen oder zu bearbeiten. Schon während unseres Bachelor of Arts an der Universität Berlin war uns bewusst, dass wir später unsere eigenes Unternehmen gründen werden und unseren Traum zu verwirklichen.
@@ -53,6 +55,7 @@
         </div>
       </div>
 
+      <!-- Same idea as lines 42 - 56 -->
       <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
         <div class="container">
           <div class="container-left">
@@ -121,7 +124,7 @@
       document.getElementById("mySidenav").style.width = "0";
     }
 
-
+    /* to toggle Dark-Mode */
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
     function switchTheme(e) { //switch to dark-theme

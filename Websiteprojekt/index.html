@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 
-<html lang="de">
-  <head>
+<html lang="de"> <!-- declare as html -->
+  <head> <!-- open head -->
     <main charset="utf-8">
-    <link rel="stylesheet" href="css/stylesheet_index.css" type="text/css"/>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" type="text/css"/>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title>caught.</title>
-  </head>
+    <link rel="stylesheet" href="css/stylesheet_index.css" type="text/css"/> <!-- stylesheet -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" type="text/css"/> <!-- aos, makes the slide effect -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- aos script, makes the slide effect -->
+    <title>caught.</title> <!-- title -->
+  </head> <!-- close head -->
 
-  <body>
+  <body> <!-- open head -->
 
-    <header>
+    <header> <!-- open header -->
+
       <!--Navigationsbar-->
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -24,9 +25,9 @@
         <a href="impressum.html">Impressum</a>
       </div>
 
-      <span class="nav-btn" onclick="openNav()">&#9776;</span>
+      <span class="nav-btn" onclick="openNav()">&#9776;</span> <!-- Button to open the navigationbar -->
 
-      <div class="theme-switch-wrapper">
+      <div class="theme-switch-wrapper"> <!-- Toggle Dark-Mode -->
         <label class="theme-switch" for="checkbox">
           <input type="checkbox" id="checkbox" />
           <div class="slider round"></div>
@@ -34,15 +35,15 @@
         <em>Dark Mode</em>
       </div>
 
-    </header>
+    </header> <!-- close header -->
 
-      <div class="picture">
-        <div class="company" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30"> caught. </div>
-        <div class="slogan" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30"> Capture your perfect moment! </div>
+      <div class="picture"> <!-- Main picture of skyline -->
+        <div class="company" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30"> caught. </div> <!-- companys name -->
+        <div class="slogan" data-aos="fade-up" data-aos-duration="800" data-aos-delay="30"> Capture your perfect moment! </div> <!-- slogan -->
       </div>
 
-      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-        <div class="container">
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0"> <!-- Setting a section to layout the website -->
+        <div class="container"> <!-- Setting a container of the website, defining the margin to the left and right side  -->
           <h1>Unsere Philosophie</h1>
           <p>
             Die einzige Sprache, die jeder versteht, ist die der Fotografie. Wir möchten allen die Fotografie näherbringen. Wir sind zwei junge Menschen, die sich dies als Lebensziel gesetzt haben. Wir bieten deswegen Kurse rund um das Fotografieren an. Das unsere Kunden diese wunderschöne Sprache erlernen, liegt uns am Herzen! Wir sehen unsere Arbeit als Dienst an der Allgemeinheit. Die Schönheit dieser Welt aufzuzeigen, die Schlichtheit und die Komplexität unserer Erde, des Weltalls und der Mikrowelten, ist unsere Aufgabe. Es ist nicht nur ein «fresher Augenschmaus», wie die Jugend von heute sagen würde. Nein! Noch hat keine Fotografie dieser Welt Krieg, Hass oder Zerstörung hervorgerufen, sondern bringt Menschen zusammen, lässt sie staunen und ruft Glücksgefühl hervor. Wir sagen: «Die Erhaltung des Friedens liegt in unseren Händen und wir fördern sie mit jedem Bild ein Stückchen mehr!»
@@ -50,19 +51,19 @@
         </div>
       </div>
 
-      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-        <div class="container">
-          <h1>Gründer</h1>
-            <div class="container-left Gründer">
-              <img src="images/Jarin.png" alt="Marco Schuppisser"/>
+      <div class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0"> <!-- Setting a section to layout the website -->
+        <div class="container"> <!-- Setting a container of the website, defining the margin to the left and right side  -->
+          <h1>Gründer</h1> <!-- title of the section  -->
+            <div class="container-left Gründer"> <!-- setting two containers in the container, one left, one right // to divide the container -->
+              <img src="images/Jarin.png" alt="Marco Schuppisser"/> <!-- picture of Marco  -->
               <h2>Marco Schuppisser</h2>
               <p>
                 <div><h4>Co-CEO: </h4></div>
                 Mit der Leitung über unsere angebotenen Kurse, als Ansprechperson für unsere Freelancer und als Zuständiger für junge Talente zählt Herr Schuppisser als Schnittstelle zwischen Firma und Aussenwelt.
               </p>
             </div>
-          <div class="container-right Gründer">
-            <img src="images/Jarin.png" alt="Hendrik Wesselmann"/>
+          <div class="container-right Gründer"> <!-- the right container  -->
+            <img src="images/Jarin.png" alt="Hendrik Wesselmann"/> <!-- picture of Hendrik   -->
             <h2>Hendrik Wesselmann</h2>
             <p>
               <div><h4>Co-CEO: </h4></div>
@@ -72,12 +73,12 @@
         </div>
       </div>
 
-      <footer class="contentinfo">
-        <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
+      <footer class="contentinfo"> <!-- footer  -->
+        <div><a href=#top class="btn_top btn_outline">Nach oben</a></div> <!-- button to reach the top of the page  -->
         <div><h3 class="rights">Copyright ©2020 | All rights reserved</h3></div>
       </footer>
 
-  </body>
+  </body> <!--  close body -->
 
   <script>
     AOS.init(); /*slide effect*/
@@ -91,7 +92,7 @@
       document.getElementById("mySidenav").style.width = "0";
     }
 
-
+    /* toggle dark-mode */
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
     function switchTheme(e) {
