@@ -79,6 +79,16 @@ h4 {
   text-align: center; /* alignment */
 }
 
+#hendrik {
+  width: 100%;
+  height: auto;
+}
+
+#marco {
+  width: 80%;
+  height: auto;
+}
+
 /* Classes */
 
 /* Toggle Dark-Mode*/
