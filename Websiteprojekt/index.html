@@ -1,9 +1,24 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 
 <html lang="de">
   <head>
     <link rel="stylesheet" href="css/stylesheet_index.css" type="text/css"/>
+=======
+<!-- TODO: <!DOCTYPE html> -->
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+      <!-- TODO: Link tags don't need a closing tag and can be closed like this: <link ... /> -->
+      <!-- TODO: Also, stylesheet tags should include the type="text/css" attribute -->
+    <link rel="stylesheet" href="css/stylesheet_index.css" type="text/css"/>
+  <!-- TODO: May I interest you in closing your own Tags? -->
+  <!-- TODO: Also... what is this tag good for? It wouldn't even do something if it was closed properly afaik. -->
+  <!-- TODO: btn_top margin auf 44 % und text-align center -->
+>>>>>>> 5757557d9f30afc1738d355f0ae15a3327eb7ba6
     <main charset="utf-8">
+      <!-- TODO: Link tags don't need a closing tag and can be closed like this: <link ... /> -->
+      <!-- TODO: Also, stylesheet tags should include the type="text/css" attribute -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" type="text/css"/>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>caught.</title>
@@ -26,7 +41,14 @@
 
       <span class="nav-btn" onclick="openNav()">&#9776;</span>
 
-      <button id="btn-dark-mode" onclick="myFunction()">Dark Mode</button>
+      <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+        <em>Dark Mode</em>
+      </div>
+
 
     </header>
 
@@ -47,18 +69,26 @@
         <div class="container">
           <h1>Gründer</h1>
             <div class="container-left Gründer">
+                <!-- TODO: Image tags should also be closed in the starting tag: <img ... /> -->
+                <!-- TODO: Use a better, slightly more serious picture -->
               <img src="images/Jarin.png" alt="Marco Schuppisser"/>
               <h2>Marco Schuppisser</h2>
+                <!-- TODO: Paragraph tags must not contain block container tags such as divs. If you need to separate
+                   TODO: content in a paragraph, use <span></span> instead. -->
               <p>
-                <div class="CEO">Co-CEO:</div>
+                <div><h4>Co-CEO: </h4></div>
                 Mit der Leitung über unsere angebotenen Kurse, als Ansprechperson für unsere Freelancer und als Zuständiger für junge Talente zählt Herr Schuppisser als Schnittstelle zwischen Firma und Aussenwelt.
               </p>
             </div>
           <div class="container-right Gründer">
+              <!-- TODO: Image tags should also be closed in the starting tag: <img ... /> -->
+              <!-- TODO: Use a better, slightly more serious picture -->
             <img src="images/Jarin.png" alt="Hendrik Wesselmann"/>
             <h2>Hendrik Wesselmann</h2>
+              <!-- TODO: Paragraph tags must not contain block container tags such as divs. If you need to separate
+                   TODO: content in a paragraph, use <span></span> instead. -->
             <p>
-              <div class="CEO">Co-CEO:</div>
+              <div><h4>Co-CEO: </h4></div>
               Mit der Übersicht in den Finanzen und der vollständigen Koordination in der Firma zählt Herr Wesselmann als Kopf des Unternehmens.
             </p>
           </div>
@@ -66,7 +96,10 @@
       </div>
 
       <footer class="contentinfo">
+          <!-- TODO: Where does this link lead to? There is no element with the id "top" in this document. Are you
+               TODO: using JS for this? -->
         <div><a href=#top class="btn_top btn_outline">Nach oben</a></div>
+          <!-- TODO: At this point I don't even know why I even bother... -->
         <div><h3 class="rights">Copyright ©2020 | All rights reserved</h3></div>
       </footer>
 
@@ -84,20 +117,31 @@
       document.getElementById("mySidenav").style.width = "0";
     }
 
-    function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
+
+    const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+    function switchTheme(e) {
+      if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+      else {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
     }
 
-  function swapStyleSheet(sheet){
-  document.getElementById('theme').setAttribute('href', sheet);
-  localStorage.setItem("sheet", sheet);
-  }
+    toggleSwitch.addEventListener('change', switchTheme, false);
 
-  window.onload = _ =>
-  swapStyleSheet(
-  localStorage.getItem("sheet") || "default.css"
-  );
+    const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+
+    if (currentTheme) {
+      document.documentElement.setAttribute('data-theme', currentTheme);
+
+      if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+      }
+    }
+
+
 
   </script>
 </html>
