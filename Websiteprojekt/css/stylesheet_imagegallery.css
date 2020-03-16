@@ -1,5 +1,5 @@
 /* Tags */
-
+/*compare to stylesheet_index.css*/
 :root {
     --font-color: #6c756d;
     --bg-color: #fff;
@@ -207,20 +207,20 @@ input:checked + .slider:before {
 }
 
 /* Gallery */
-.gallery {
+.gallery { /*class of div containing pictures*/
   width: 100%;
 }
 
-.gallery img {
-  padding: 5px;
-  transition: 1s;
+.gallery img { /*images in gallery*/
+  padding: 5px; /*each pictures has a 5px gap to each other*/
+  transition: 1s; /*1s effect when hovering over the img*/
 }
 
-.gallery img:hover {
-  transform: scale(1.015)
+.gallery img:hover { /*hover effect*/
+  transform: scale(1.015) /*img gets larger by a factor of 1.015*/
 }
 
-.image {
+.image { /*standard width and height of an image*/
   width: 32%;
   height: 40%;
 }
